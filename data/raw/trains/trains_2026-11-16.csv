@@ -1,0 +1,3 @@
+Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Destination,Origintime,Destinationtime,Status,Lastlocation,Duein,Late,Exparrival,Expdepart,Scharrival,Schdepart,Direction,Traintype,Locationtype,CollectedAtUTC
+2026-11-16T03:43:04.207,A301,Tralee,TRLEE,03:43:04,16 Nov 2026,Tralee,Mallow,04:30,05:58,No Information,,47,0,00:00,04:30,00:00,04:30,To Mallow,Train,O,2026-11-16T03:33:56+00:00
+2026-11-16T03:43:30.85,A301,Killarney,KLRNY,03:43:30,16 Nov 2026,Tralee,Mallow,04:30,05:58,No Information,,83,0,05:03,05:06,05:03,05:06,To Mallow,Train,S,2026-11-16T03:33:56+00:00

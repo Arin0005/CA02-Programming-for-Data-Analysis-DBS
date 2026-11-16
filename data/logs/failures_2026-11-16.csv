@@ -1,0 +1,2 @@
+RunUTC,Source,Item,Error
+2026-11-16T03:33:56+00:00,stations,getAllStationsXML,"HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/realtime.asmx/getAllStationsXML (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.irishrail.ie', port=443) at 0x724ffb5d21b0>, 'Connection to api.irishrail.ie timed out. (connect timeout=30)'))"
