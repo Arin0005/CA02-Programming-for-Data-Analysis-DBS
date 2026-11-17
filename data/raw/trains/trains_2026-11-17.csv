@@ -1,0 +1,3 @@
+Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Destination,Origintime,Destinationtime,Status,Lastlocation,Duein,Late,Exparrival,Expdepart,Scharrival,Schdepart,Direction,Traintype,Locationtype,CollectedAtUTC
+2026-11-17T03:44:01.67,A861,Ballina,BALNA,03:44:01,17 Nov 2026,Ballina,Manulla Junction,05:05,05:32,No Information,,81,0,00:00,05:05,00:00,05:05,To Manulla Junction,Train,O,2026-11-17T03:43:58+00:00
+2026-11-17T03:45:35.643,A701,Athlone,ATLNE,03:45:35,17 Nov 2026,Athlone,Dublin Heuston,05:15,06:53,No Information,,90,0,00:00,05:15,00:00,05:15,To Dublin Heuston,Train,O,2026-11-17T03:43:58+00:00
