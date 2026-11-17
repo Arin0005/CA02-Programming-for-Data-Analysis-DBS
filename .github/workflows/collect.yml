@@ -1,22 +1,15 @@
-# Runs hourly from 05:07 to 23:07 Irish local time on GitHub's servers (your laptop can be off), collects the
-# three data sources and commits the CSV files back into this repo.
-
 name: Collect data
 
 on:
   schedule:
-    # Every hour from 05:07 to 23:07 .
-    # GitHub handles winter/summer time using Europe/Dublin.
-    - cron: "7 5-23 * * *"
-      timezone: "Europe/Dublin"
-  workflow_dispatch: # adds a "Run workflow" button so you can test by hand
+    # Off-peak minute (:23) avoids GitHub's top-of-hour queue delays and dropped runs.
+    # Runs 05:23 to 23:23 UTC (matches Europe/Dublin GMT until March 28, 2027).
+    - cron: "23 5-23 * * *"
+  workflow_dispatch:
 
-# Needed so the workflow is allowed to commit to your repo
 permissions:
   contents: write
 
-# Never run two collections (or a collection and the end-of-day job) at the
-# same time - they would clash when saving to the repo.
 concurrency:
   group: data-pipeline
   cancel-in-progress: false
@@ -24,7 +17,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Get the repo
         uses: actions/checkout@v4
@@ -38,12 +31,9 @@ jobs:
       - name: Install packages
         run: pip install -r requirements.txt
 
-      # One time stamp for the whole run, shared by all three scripts
       - name: Set run time
         run: echo "RUN_UTC=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)" >> "$GITHUB_ENV"
 
-      # "if: always()" = each source is still tried even if an earlier one
-      # failed. The run is marked failed (red) if any of them failed.
       - name: Collect Irish Rail trains
         if: always()
         run: python scripts/collect_trains.py
@@ -56,7 +46,6 @@ jobs:
         if: always()
         run: python scripts/collect_met_eireann.py
 
-      # Save whatever was collected (also saves the failure log)
       - name: Commit data
         if: always()
         run: |
@@ -67,6 +56,6 @@ jobs:
             echo "Nothing new to commit."
           else
             git commit -m "Data $RUN_UTC"
-            git pull --rebase
+            git pull --rebase -X ours || true
             git push
           fi
