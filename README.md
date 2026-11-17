@@ -1,6 +1,6 @@
 # RailPredict – Weather-Based Train Delay Analysis
 
-An MSc AI data collection project combining Irish Rail live station-board data with Open-Meteo and Met Éireann weather observations.
+An data collection project combining Irish Rail live station-board data with Open-Meteo and Met Éireann weather observations.
 
 ## What runs automatically
 
