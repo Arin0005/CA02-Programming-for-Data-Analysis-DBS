@@ -8,9 +8,10 @@ name: End of day processing
 
 on:
   schedule:
-    # 00:30 UTC every day. Running just AFTER midnight means the previous
-    # day is complete (the 23:07 hourly run has long finished).
-    - cron: "30 0 * * *"
+    # 01:30 Irish local time; yesterday's UTC files are complete.
+    # This stays after UTC midnight even during summer time.
+    - cron: "30 1 * * *"
+      timezone: "Europe/Dublin"
   workflow_dispatch:
     inputs:
       day:

@@ -6,10 +6,10 @@ This file records every change made to your original three Colab cells, the logi
 
 ## 1. How the system works (plain language)
 
-1. **Every hour** (minute 7, UTC) GitHub starts a small Linux computer in the cloud. Your laptop is not involved.
+1. **19 times daily** (05:07–23:07, Europe/Dublin) GitHub starts a small Linux computer in the cloud. Your laptop is not involved.
 2. That computer runs three collection scripts, one per source. Each one **adds rows to that day's CSV file**.
 3. It then **commits** the new rows to your repo, so the data is stored in GitHub.
-4. **Once a day at 00:30 UTC** a second workflow takes yesterday's data and:
+4. **Once a day at 01:30 Irish time** a second workflow takes yesterday's data and:
    - removes duplicate trains (clean),
    - joins trains with weather (merge),
    - writes a check report (inspect).
@@ -29,20 +29,20 @@ DAY is the **UTC date** (e.g. `2026-11-15`).
 
 ## 2. Files and what each one does
 
-| File | Purpose |
-|---|---|
-| `.github/workflows/collect.yml` | Hourly schedule: runs the 3 collection scripts and commits the data |
-| `.github/workflows/end_of_day.yml` | Daily schedule: clean → merge → report → commit |
-| `scripts/common.py` | Shared helpers (folders, run time, saving, failure log, station list) |
-| `scripts/collect_trains.py` | Your cell 1 as a script |
-| `scripts/collect_openmeteo.py` | Your cell 2 as a script |
-| `scripts/collect_met_eireann.py` | Your cell 3 as a script |
-| `scripts/clean_trains.py` | Removes duplicate trains (raw kept) |
-| `scripts/merge_data.py` | Joins trains with Open-Meteo and Met Éireann |
-| `scripts/inspect_data.py` | Read-only check of a day's data (you run it yourself) |
-| `data/met_station_coords.csv` | Coordinates of the 25 Met Éireann stations (used only to find the nearest one) |
-| `requirements.txt` | The two Python packages needed: pandas and requests |
-| `CHANGELOG.md` | This file |
+| File                               | Purpose                                                                                            |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `.github/workflows/collect.yml`    | Hourly schedule from 05:07 to 23:07 Irish time: runs the 3 collection scripts and commits the data |
+| `.github/workflows/end_of_day.yml` | Daily at 01:30 Irish time: clean → merge → report → commit                                         |
+| `scripts/common.py`                | Shared helpers (folders, run time, saving, failure log, station list)                              |
+| `scripts/collect_trains.py`        | Your cell 1 as a script                                                                            |
+| `scripts/collect_openmeteo.py`     | Your cell 2 as a script                                                                            |
+| `scripts/collect_met_eireann.py`   | Your cell 3 as a script                                                                            |
+| `scripts/clean_trains.py`          | Removes duplicate trains (raw kept)                                                                |
+| `scripts/merge_data.py`            | Joins trains with Open-Meteo and Met Éireann                                                       |
+| `scripts/inspect_data.py`          | Read-only check of a day's data (you run it yourself)                                              |
+| `data/met_station_coords.csv`      | Coordinates of the 25 Met Éireann stations (used only to find the nearest one)                     |
+| `requirements.txt`                 | The two Python packages needed: pandas and requests                                                |
+| `CHANGELOG.md`                     | This file                                                                                          |
 
 Created automatically by the scripts: `data/stations_roi.csv`, `data/raw/...`, `data/clean/...`, `data/merged/...`, `data/logs/...`, `data/reports/...`.
 
@@ -51,54 +51,59 @@ Created automatically by the scripts: `data/stations_roi.csv`, `data/raw/...`, `
 ## 3. What was wrong in your original code, and what changed
 
 ### Cell 1 – trains
-| Original | Problem | Change |
-|---|---|---|
-| `pd.read_xml(...)` on each station board | An empty board has no XML rows, which makes `read_xml` raise an error. The `except` then printed "Could not collect", so a quiet station looked broken. | XML is read by hand (`xml_to_rows` in `common.py`). No rows = empty board = counted, **not** a failure. A row only counts as a train if it has a `Traincode`. |
-| `except Exception: print("Could not collect:", code)` | The real error was thrown away and nothing was saved. | Source, station and the actual error go to `data/logs/failures_DAY.csv`. |
-| `datetime.now()` inside the loop | Every station got a slightly different time. | One shared time per run (`RUN_UTC`), set by the workflow. |
-| One attempt per station | One timeout lost that station for the hour. | One retry after 2 seconds. |
-| Saved to one overwritten file | No history. | Appends to one file per day. |
-| Hand-typed Northern Ireland name list | May miss a station. | **Left exactly as you wrote it.** Check `data/stations_roi.csv` after the first run. |
-| `display(...)` | Only works in Colab. | Removed; progress is printed instead. |
-| – | If the API blocked GitHub, the run would look fine. | If **every** call fails, the script exits with an error so the run shows red in GitHub. |
+
+| Original                                              | Problem                                                                                                                                                 | Change                                                                                                                                                        |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pd.read_xml(...)` on each station board              | An empty board has no XML rows, which makes `read_xml` raise an error. The `except` then printed "Could not collect", so a quiet station looked broken. | XML is read by hand (`xml_to_rows` in `common.py`). No rows = empty board = counted, **not** a failure. A row only counts as a train if it has a `Traincode`. |
+| `except Exception: print("Could not collect:", code)` | The real error was thrown away and nothing was saved.                                                                                                   | Source, station and the actual error go to `data/logs/failures_DAY.csv`.                                                                                      |
+| `datetime.now()` inside the loop                      | Every station got a slightly different time.                                                                                                            | One shared time per run (`RUN_UTC`), set by the workflow.                                                                                                     |
+| One attempt per station                               | One timeout lost that station for the hour.                                                                                                             | One retry after 2 seconds.                                                                                                                                    |
+| Saved to one overwritten file                         | No history.                                                                                                                                             | Appends to one file per day.                                                                                                                                  |
+| Hand-typed Northern Ireland name list                 | May miss a station.                                                                                                                                     | **Left exactly as you wrote it.** Check `data/stations_roi.csv` after the first run.                                                                          |
+| `display(...)`                                        | Only works in Colab.                                                                                                                                    | Removed; progress is printed instead.                                                                                                                         |
+| –                                                     | If the API blocked GitHub, the run would look fine.                                                                                                     | If **every** call fails, the script exits with an error so the run shows red in GitHub.                                                                       |
 
 ### Cell 2 – Open-Meteo
-| Original | Change |
-|---|---|
+
+| Original                                         | Change                                                                                                                                                                  |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Batches of 10 stations, results matched by order | **Kept.** Added a check that the number of results equals the number of stations; otherwise the batch is logged as failed (matching by order would be wrong otherwise). |
-| Removed stations with missing coordinates | Also removes stations at 0, 0 (no real position). |
-| `files.download` / `display` (Colab only) | Removed. Saves to `data/raw/openmeteo/openmeteo_DAY.csv`. |
-| `print("Failed:", ...)` | Logged to the failures file. One retry added. |
+| Removed stations with missing coordinates        | Also removes stations at 0, 0 (no real position).                                                                                                                       |
+| `files.download` / `display` (Colab only)        | Removed. Saves to `data/raw/openmeteo/openmeteo_DAY.csv`.                                                                                                               |
+| `print("Failed:", ...)`                          | Logged to the failures file. One retry added.                                                                                                                           |
 
 ### Cell 3 – Met Éireann
-| Original | Change |
-|---|---|
-| `pd.read_csv(url)` | Replaced with `requests` plus a User-Agent header, a timeout, and a check that the answer really is the CSV (not a block page). A failure is logged. |
-| pandas default reading | Values are read **as text** (`dtype=str`, `keep_default_na=False`) so `03` stays `03` and `-` stays `-`. Nothing is converted or filled in. |
+
+| Original                                         | Change                                                                                                                                                                                                                 |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pd.read_csv(url)`                               | Replaced with `requests` plus a User-Agent header, a timeout, and a check that the answer really is the CSV (not a block page). A failure is logged.                                                                   |
+| pandas default reading                           | Values are read **as text** (`dtype=str`, `keep_default_na=False`) so `03` stays `03` and `-` stays `-`. Nothing is converted or filled in.                                                                            |
 | Original column names such as `Temperature (ºC)` | Renamed to plain names (the **values** are unchanged): `Station, Temperature_C, Weather, WindSpeed_Kts, WindGust_Kts, WindDirection, Humidity_Pct, Rainfall_mm, Pressure_hPa`. Columns are always saved in this order. |
-| – | The file has no observation time, so each row is stamped with `CollectedAtUTC` (the time we downloaded it). |
+| –                                                | The file has no observation time, so each row is stamped with `CollectedAtUTC` (the time we downloaded it).                                                                                                            |
 
 ---
 
 ## 4. Decisions you made, and how they were applied
 
-| Your decision | Applied as |
-|---|---|
+| Your decision                                                            | Applied as                                                                                                                               |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Add a Met Éireann coordinates file, but do not add it to the merged data | `data/met_station_coords.csv` is read only to find the nearest station. Latitude, longitude and distance are **not** in the merged file. |
-| Join on station + hour | The hour comes from `CollectedAtUTC` (e.g. `2026-11-15T21`). The hour is a temporary helper column, removed before saving. |
-| Keep raw data | `clean_trains.py` only reads the raw file. |
-| Inspect script | `inspect_data.py`, see section 6. |
-| Markdown change log | This file. |
+| Join on station + hour                                                   | The hour comes from `CollectedAtUTC` (e.g. `2026-11-15T21`). The hour is a temporary helper column, removed before saving.               |
+| Keep raw data                                                            | `clean_trains.py` only reads the raw file.                                                                                               |
+| Inspect script                                                           | `inspect_data.py`, see section 6.                                                                                                        |
+| Markdown change log                                                      | This file.                                                                                                                               |
 
 ### Duplicate rule (question 2 – default applied, one word to change)
+
 One row per **Traincode + Traindate + Stationcode**. The default keeps the **last** snapshot, because the closest snapshot to arrival has the most accurate `Late` value. To keep the first instead, change `KEEP = "last"` to `KEEP = "first"` in `scripts/clean_trains.py`.
 
 ### Merge details
-* All train columns are kept as they are.
-* Open-Meteo columns get an `OM_` prefix and Met Éireann columns a `Met_` prefix. This is **only** so you can tell the sources apart; the data is unchanged. `Met_Station` shows which Met station each row was matched to.
-* Left join: no train row is ever removed because weather is missing.
-* Nearest Met station = straight-line (haversine) distance from the train station's coordinates, over all 25 stations in the coordinates file.
-* If two weather readings fall in the same hour (for example a manual test run), the newest is used so train rows are not duplicated.
+
+- All train columns are kept as they are.
+- Open-Meteo columns get an `OM_` prefix and Met Éireann columns a `Met_` prefix. This is **only** so you can tell the sources apart; the data is unchanged. `Met_Station` shows which Met station each row was matched to.
+- Left join: no train row is ever removed because weather is missing.
+- Nearest Met station = straight-line (haversine) distance from the train station's coordinates, over all 25 stations in the coordinates file.
+- If two weather readings fall in the same hour (for example a manual test run), the newest is used so train rows are not duplicated.
 
 ---
 
@@ -119,12 +124,14 @@ One row per **Traincode + Traindate + Stationcode**. The default keeps the **las
 ## 6. How to inspect the data
 
 **On your computer (Colab or local):**
+
 ```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
 cd YOUR-REPO
 pip install -r requirements.txt
 python scripts/inspect_data.py 2026-11-15
 ```
+
 In Colab, put `!` in front of each line and use `%cd YOUR-REPO` instead of `cd`. Run `git pull` any time to get newer data.
 
 It prints, per source: row counts, number of hourly runs, missing values (blank or `-`), duplicates in raw trains, stations with no trains all day, failed calls grouped by error, and sample merged rows. Add `--save` to also write `data/reports/summary_DAY.txt`.
@@ -147,8 +154,18 @@ You can also open any CSV straight on GitHub or in Excel. To change something (f
 ## 8. Change history
 
 ### 2026-11-15 – Version 1 (first build)
-* Converted the three notebook cells into scripts that append to daily CSVs.
-* Added failure logging, retries, and correct handling of empty station boards.
-* Added GitHub Actions workflows for hourly collection and end-of-day processing.
-* Added duplicate removal (keep last snapshot), merging with Open-Meteo (station + hour) and Met Éireann (nearest station + hour), and the inspection script.
-* Added `met_station_coords.csv` for the nearest-station join only.
+
+- Converted the three notebook cells into scripts that append to daily CSVs.
+- Added failure logging, retries, and correct handling of empty station boards.
+- Added GitHub Actions workflows for hourly collection and end-of-day processing.
+- Added duplicate removal (keep last snapshot), merging with Open-Meteo (station + hour) and Met Éireann (nearest station + hour), and the inspection script.
+- Added `met_station_coords.csv` for the nearest-station join only.
+
+---
+
+## Schedule update (16 November 2026)
+
+- `collect.yml`: changed from hourly 24/7 UTC to hourly at minute 7, 05:00–23:59 in `Europe/Dublin` (scheduled starts 05:07 through 23:07; 19 per day).
+- `end_of_day.yml`: changed to 01:30 `Europe/Dublin`. This is after midnight UTC in both winter and summer, so processing yesterday’s UTC daily files is consistent.
+- Manual Actions runs are still permitted outside the scheduled hours for testing. GitHub may delay scheduled jobs.
+- The Python collection and merge logic was not altered in this update.

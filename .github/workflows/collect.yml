@@ -1,14 +1,15 @@
-# Runs every hour on GitHub's servers (your laptop can be off), collects the
+# Runs hourly from 05:07 to 23:07 Irish local time on GitHub's servers (your laptop can be off), collects the
 # three data sources and commits the CSV files back into this repo.
 
 name: Collect data
 
 on:
   schedule:
-    # Minute 7 of every hour, in UTC. Not minute 0 because GitHub is busiest
-    # at the top of the hour and delays those runs more.
-    - cron: "7 * * * *"
-  workflow_dispatch:   # adds a "Run workflow" button so you can test by hand
+    # Every hour from 05:07 to 23:07 .
+    # GitHub handles winter/summer time using Europe/Dublin.
+    - cron: "7 5-23 * * *"
+      timezone: "Europe/Dublin"
+  workflow_dispatch: # adds a "Run workflow" button so you can test by hand
 
 # Needed so the workflow is allowed to commit to your repo
 permissions:
