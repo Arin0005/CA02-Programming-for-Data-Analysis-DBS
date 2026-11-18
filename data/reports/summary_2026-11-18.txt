@@ -1,0 +1,35 @@
+===== Data check for 2026-11-18 (UTC) =====
+
+[Trains - raw]
+  rows: 1067 | runs (hours collected): 1
+  first run: 2026-11-18T12:21:46.384521+00:00 | last run: 2026-11-18T12:21:46.384521+00:00
+  repeated rows within the same collection run: 90
+  Missing values in trains (blank or '-'):
+    Lastlocation: 705 of 1067
+  stations with no trains all day: 41 of 165
+    ADAMF, ADAMS, ARHAN, ARKLW, BCLAN, BHILL, BRGTN, BYHNS, CAHIR, CCONL, CENTJ, CITYJ, CJRDN, CKOSR, CLMEL, CLONF, CLONS, CPILE, CRGHW, CSREA, CURAH, DCKLS, DUNMR, GOREY, GORT, HAZEF, HAZES, KCOOL, KISHF, KISHS, MNEBG, NNAGH, PWESF, PWESS, RCREA, RDRUM, RMORE, RSCMN, TIPRY, WBDGE, WLOW
+
+[Open-Meteo - raw]
+  rows: 162 | runs: 1 | stations: 162
+  Missing values in open-meteo (blank or '-'):
+
+[Met Eireann - raw]
+  rows: 25 | runs: 1 | stations: 25
+  Missing values in met eireann (blank or '-'):
+    Weather: 8 of 25
+    WindSpeed_Kts: 2 of 25
+    WindGust_Kts: 21 of 25
+    WindDirection: 2 of 25
+
+[Failed calls]
+  none logged
+
+[Clean and merged]
+  clean rows: 977
+  merged rows: 977
+  sample merged rows:
+             Servertime Traincode Stationfullname Stationcode Querytime   Traindate   Origin     Destination Origintime Destinationtime         Status              Lastlocation Duein Late Exparrival Expdepart Scharrival Schdepart  Direction Traintype Locationtype                   CollectedAtUTC DelayMinutes OM_time OM_interval OM_temperature_2m OM_precipitation OM_wind_speed_10m OM_wind_gusts_10m OM_relative_humidity_2m Met_Station Met_Temperature_C Met_Weather Met_WindSpeed_Kts Met_WindGust_Kts Met_WindDirection Met_Humidity_Pct Met_Rainfall_mm Met_Pressure_hPa
+2026-11-18T12:21:45.263      A909           Sligo       SLIGO  12:21:45 18 Nov 2026    Sligo Dublin Connolly      13:05           16:27 No Information                              44    0      00:00     13:05      00:00     13:05 Southbound     Train            O 2026-11-18T12:21:46.384521+00:00            0                                                                                                                                                                                                                                                                    
+ 2026-11-18T12:23:10.65      E225       Blackrock       BROCK  12:23:10 18 Nov 2026 Malahide            Bray      11:44           13:00       En Route Departed Grand Canal Dock    10    3      12:32     12:33      12:29     12:30 Southbound      DART            S 2026-11-18T12:21:46.384521+00:00            3                                                                                                                                                                                                                                                                    
+ 2026-11-18T12:23:10.65      E113       Blackrock       BROCK  12:23:10 18 Nov 2026    Howth      Greystones      11:55           13:25       En Route    Departed Clontarf Road    18    1      12:40     12:41      12:39     12:40 Southbound      DART            S 2026-11-18T12:21:46.384521+00:00            1                                                                                                                                                                                                                                                                    
+ 2026-11-18T12:23:10.65      E226       Blackrock       BROCK  12:23:10 18 Nov 2026 Malahide            Bray      12:04           13:20       En Route        Departed Killester    27    0      12:50     12:50      12:49 
