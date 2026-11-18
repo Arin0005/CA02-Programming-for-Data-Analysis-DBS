@@ -48,13 +48,13 @@ def main():
     # ----- Hour of collection: "2026-11-15T21:07:03+00:00" -> "2026-11-15T21"
     # We agreed to join on the hour, not the exact second. This is a TEMPORARY
     # helper column and is removed before saving.
-    trains["_hour"] = trains["CollectedAtUTC"].str[:13]
+    trains["_hour"] = trains["CollectedAtUTC"]
 
     # ================= Open-Meteo =================
     om_path = RAW / "openmeteo" / f"openmeteo_{day}.csv"
     if om_path.exists():
         om = read_text_csv(om_path)
-        om["_hour"] = om["CollectedAtUTC"].str[:13]
+        om["_hour"] = om["CollectedAtUTC"]
         # If there are two readings in one hour (e.g. you ran a manual test),
         # keep the newest so the join cannot create extra train rows.
         om = om.sort_values("CollectedAtUTC").drop_duplicates(["StationCode", "_hour"], keep="last")
@@ -77,7 +77,7 @@ def main():
     met_path = RAW / "met_eireann" / f"met_eireann_{day}.csv"
     if met_path.exists() and MET_COORDS_FILE.exists() and STATIONS_FILE.exists():
         met = read_text_csv(met_path)
-        met["_hour"] = met["CollectedAtUTC"].str[:13]
+        met["_hour"] = met["CollectedAtUTC"]
         met = met.sort_values("CollectedAtUTC").drop_duplicates(["Station", "_hour"], keep="last")
 
         coords = read_text_csv(MET_COORDS_FILE)

@@ -57,8 +57,9 @@ def main():
     else:
         say(f"  rows: {len(trains)} | runs (hours collected): {trains['CollectedAtUTC'].nunique()}")
         say(f"  first run: {trains['CollectedAtUTC'].min()} | last run: {trains['CollectedAtUTC'].max()}")
-        dupes = len(trains) - len(trains.drop_duplicates(["Traincode", "Traindate", "Stationcode"]))
-        say(f"  duplicate rows (same train/date/station): {dupes}")
+        keys = ["Traincode", "Traindate", "Stationcode", "CollectedAtUTC"]
+        dupes = trains.duplicated(subset=keys).sum()
+        say(f"  repeated rows within the same collection run: {dupes}")
         missing_report(trains, "trains")
 
         stations = load(STATIONS_FILE)
