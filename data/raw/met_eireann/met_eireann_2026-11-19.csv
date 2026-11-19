@@ -1,0 +1,26 @@
+Station,Temperature_C,Weather,WindSpeed_Kts,WindGust_Kts,WindDirection,Humidity_Pct,Rainfall_mm,Pressure_hPa,CollectedAtUTC
+Athenry,4,Fair,06,,E,96,0.0,981,2026-11-19T03:41:18+00:00
+Ballyhaise,4,Recent Fog,02,,W,99,0.0,982,2026-11-19T03:41:18+00:00
+Belmullet,5,Fair,03,,SE,95,0.0,981,2026-11-19T03:41:18+00:00
+Casement,6,Cloudy,01,,SW,96,0.0,981,2026-11-19T03:41:18+00:00
+Claremorris,2,-,06,,E,98,0.0,981,2026-11-19T03:41:18+00:00
+Cork,7,Mist,04,,NE,100,0.01,981,2026-11-19T03:41:18+00:00
+Dublin,6,Recent Rain,05,,N,98,0.2,981,2026-11-19T03:41:18+00:00
+Dunsany,6,-,01,,N,96,0.2,982,2026-11-19T03:41:18+00:00
+Finner,6,Recent Rain,07,,E,98,0.01,982,2026-11-19T03:41:18+00:00
+Gurteen,5,Cloudy,02,,E,94,0.0,981,2026-11-19T03:41:18+00:00
+Johnstown Castle,5,Fair,03,,N,98,0.0,981,2026-11-19T03:41:18+00:00
+Knock,4,-,07,,E,99,0.0,981,2026-11-19T03:41:18+00:00
+Mace Head,7,Cloudy,11,,E,92,0.0,980,2026-11-19T03:41:18+00:00
+Malin Head,9,Cloudy,20,,E,83,0.0,984,2026-11-19T03:41:18+00:00
+Markree Castle,2,-,-,,-,99,0.0,982,2026-11-19T03:41:18+00:00
+Moore Park,6,-,03,,SE,98,0.0,981,2026-11-19T03:41:18+00:00
+Mt Dillon,3,-,01,,NW,99,0.0,982,2026-11-19T03:41:18+00:00
+Mullingar,6,Rain shower,03,,NE,96,0.1,982,2026-11-19T03:41:18+00:00
+Newport Mayo,5,-,04,,NE,95,0.0,981,2026-11-19T03:41:18+00:00
+Oak Park,3,Fog thickening,02,,NW,98,0.0,981,2026-11-19T03:41:18+00:00
+Phoenix Park,6,-,-,,-,97,0.0,982,2026-11-19T03:41:18+00:00
+Roche's Point,8,Fair,05,,NE,94,0.0,980,2026-11-19T03:41:18+00:00
+Shannon,7,Cloudy,07,,E,92,0.0,980,2026-11-19T03:41:18+00:00
+Sherkin Island,10,Rain shower,02,,N,92,0.2,980,2026-11-19T03:41:18+00:00
+Valentia,8,Rain shower,02,,SE,95,0.6,979,2026-11-19T03:41:18+00:00
