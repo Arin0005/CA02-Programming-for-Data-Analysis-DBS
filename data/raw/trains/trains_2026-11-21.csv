@@ -1,0 +1,766 @@
+Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Destination,Origintime,Destinationtime,Status,Lastlocation,Duein,Late,Exparrival,Expdepart,Scharrival,Schdepart,Direction,Traintype,Locationtype,CollectedAtUTC
+2026-11-21T13:35:48.39,A904,Sligo,SLIGO,13:35:48,21 Nov 2026,Dublin Connolly,Sligo,11:05,14:19,En Route,Arrived Boyle,49,5,14:24,00:00,14:19,00:00,Northbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:48.39,A911,Sligo,SLIGO,13:35:48,21 Nov 2026,Sligo,Dublin Connolly,15:05,18:18,No Information,,90,0,00:00,15:05,00:00,15:05,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:49.293,A904,Collooney,COLNY,13:35:49,21 Nov 2026,Dublin Connolly,Sligo,11:05,14:19,En Route,Arrived Boyle,37,4,14:11,14:12,14:07,14:08,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:50.107,A866,Ballina,BALNA,13:35:50,21 Nov 2026,Manulla Junction,Ballina,13:33,14:00,No Information,,25,0,14:00,00:00,14:00,00:00,To Ballina,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:50.107,A869,Ballina,BALNA,13:35:50,21 Nov 2026,Ballina,Manulla Junction,15:05,15:32,No Information,,90,0,00:00,15:05,00:00,15:05,To Manulla Junction,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:50.92,A904,Ballymote,BMOTE,13:35:50,21 Nov 2026,Dublin Connolly,Sligo,11:05,14:19,En Route,Arrived Boyle,27,4,14:01,14:02,13:57,13:58,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:51.723,A114,Dundalk,DDALK,13:35:51,21 Nov 2026,Dublin Connolly,Belfast,12:50,14:58,En Route,Departed Drogheda,15,0,13:48,13:50,13:48,13:50,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:51.723,A116,Dundalk,DDALK,13:35:51,21 Nov 2026,Dublin Connolly,Belfast,13:50,15:58,No Information,,75,0,14:48,14:50,14:48,14:50,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:51.723,A115,Dundalk,DDALK,13:35:51,21 Nov 2026,Belfast,Dublin Connolly,13:00,15:15,No Information,,41,0,14:12,14:16,14:12,14:16,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:52.643,A866,Foxford,FXFRD,13:35:52,21 Nov 2026,Manulla Junction,Ballina,13:33,14:00,No Information,,12,0,13:47,13:47,13:47,13:47,To Ballina,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:53.47,A904,Boyle,BOYLE,13:35:53,21 Nov 2026,Dublin Connolly,Sligo,11:05,14:19,En Route,Arrived Boyle,11,4,13:35,13:46,13:30,13:42,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:53.47,A909,Boyle,BOYLE,13:35:53,21 Nov 2026,Sligo,Dublin Connolly,13:05,16:11,En Route,Departed Ballymote,6,3,13:40,13:41,13:37,13:38,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:54.39,A909,Carrick on Shannon,CKOSH,13:35:54,21 Nov 2026,Sligo,Dublin Connolly,13:05,16:11,En Route,Departed Ballymote,20,3,13:53,13:55,13:50,13:52,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:35:55.203,A909,Dromod,DRMOD,13:35:55,21 Nov 2026,Sligo,Dublin Connolly,13:05,16:11,En Route,Departed Ballymote,32,3,14:05,14:07,14:02,14:04,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:15.567,A807,Ballyhaunis,BYHNS,13:36:15,21 Nov 2026,Westport,Dublin Heuston,13:10,16:27,No Information,,23,0,13:58,13:59,13:58,13:59,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:16.38,A807,Castlerea,CSREA,13:36:16,21 Nov 2026,Westport,Dublin Heuston,13:10,16:27,No Information,,37,0,14:11,14:13,14:11,14:13,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:16.38,A804,Castlerea,CSREA,13:36:16,21 Nov 2026,Dublin Heuston,Westport,12:45,15:59,En Route,Departed Geashill,80,2,14:54,14:56,14:52,14:54,To Westport,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:17.27,A906,Longford,LFORD,13:36:17,21 Nov 2026,Dublin Connolly,Sligo,13:05,16:19,En Route,Departed Leixlip (Louisa Bridge),77,1,14:51,14:53,14:50,14:52,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:17.27,A909,Longford,LFORD,13:36:17,21 Nov 2026,Sligo,Dublin Connolly,13:05,16:11,En Route,Departed Ballymote,44,3,14:18,14:20,14:15,14:17,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.16,A807,Claremorris,CLMRS,13:36:18,21 Nov 2026,Westport,Dublin Heuston,13:10,16:27,No Information,,10,0,13:44,13:46,13:44,13:46,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,D812,Drogheda,DGHDA,13:36:18,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,48,4,14:24,00:00,14:20,00:00,Northbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,A116,Drogheda,DGHDA,13:36:18,21 Nov 2026,Dublin Connolly,Belfast,13:50,15:58,No Information,,52,0,14:26,14:28,14:26,14:28,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,A113,Drogheda,DGHDA,13:36:18,21 Nov 2026,Belfast,Dublin Connolly,12:00,14:15,En Route,Arrived Drogheda,0,-3,13:34,13:36,13:36,13:39,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,P716,Drogheda,DGHDA,13:36:18,21 Nov 2026,Drogheda,Dublin Connolly,13:48,14:49,En Route,Departed Drogheda,12,0,00:00,13:48,00:00,13:48,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,P717,Drogheda,DGHDA,13:36:18,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,29,0,00:00,14:05,00:00,14:05,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,A115,Drogheda,DGHDA,13:36:18,21 Nov 2026,Belfast,Dublin Connolly,13:00,15:15,No Information,,63,0,14:36,14:39,14:36,14:39,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,P718,Drogheda,DGHDA,13:36:18,21 Nov 2026,Drogheda,Dublin Connolly,14:48,15:49,No Information,,72,0,00:00,14:48,00:00,14:48,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:18.97,P719,Drogheda,DGHDA,13:36:18,21 Nov 2026,Drogheda,Dublin Connolly,15:05,16:06,No Information,,89,0,00:00,15:05,00:00,15:05,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:36.8,A906,Edgeworthstown,ETOWN,13:36:36,21 Nov 2026,Dublin Connolly,Sligo,13:05,16:19,En Route,Departed Leixlip (Louisa Bridge),65,1,14:40,14:41,14:38,14:40,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:36.8,A909,Edgeworthstown,ETOWN,13:36:36,21 Nov 2026,Sligo,Dublin Connolly,13:05,16:11,En Route,Departed Ballymote,67,3,14:31,14:43,14:28,14:40,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:37.597,D812,Laytown,LTOWN,13:36:37,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,38,2,14:14,14:14,14:11,14:12,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:37.597,P720,Laytown,LTOWN,13:36:37,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,3,-135,13:39,13:39,15:54,15:54,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:37.597,P717,Laytown,LTOWN,13:36:37,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,35,0,14:11,14:11,14:11,14:11,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:37.597,P718,Laytown,LTOWN,13:36:37,21 Nov 2026,Drogheda,Dublin Connolly,14:48,15:49,No Information,,79,0,14:54,14:55,14:54,14:55,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:38.41,D812,Gormanston,GSTON,13:36:38,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,33,2,14:09,14:09,14:06,14:07,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:38.41,P720,Gormanston,GSTON,13:36:38,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,8,-135,13:44,13:44,15:59,15:59,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:38.41,P717,Gormanston,GSTON,13:36:38,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,40,0,14:16,14:16,14:16,14:16,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:38.41,P718,Gormanston,GSTON,13:36:38,21 Nov 2026,Drogheda,Dublin Connolly,14:48,15:49,No Information,,84,0,14:59,15:00,14:59,15:00,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:39.223,A807,Roscommon,RSCMN,13:36:39,21 Nov 2026,Westport,Dublin Heuston,13:10,16:27,No Information,,60,0,14:30,14:36,14:30,14:36,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:39.223,A804,Roscommon,RSCMN,13:36:39,21 Nov 2026,Dublin Heuston,Westport,12:45,15:59,En Route,Departed Geashill,61,2,14:36,14:37,14:34,14:35,To Westport,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.037,D812,Balbriggan,BBRGN,13:36:40,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,29,2,14:05,14:05,14:02,14:03,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.037,D814,Balbriggan,BBRGN,13:36:40,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,87,0,15:02,15:03,15:02,15:03,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.037,P720,Balbriggan,BBRGN,13:36:40,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,13,-135,13:48,13:49,16:03,16:04,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.037,P717,Balbriggan,BBRGN,13:36:40,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,45,0,14:20,14:21,14:20,14:21,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.037,P718,Balbriggan,BBRGN,13:36:40,21 Nov 2026,Drogheda,Dublin Connolly,14:48,15:49,No Information,,89,0,15:04,15:05,15:04,15:05,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.863,D812,Skerries,SKRES,13:36:40,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,23,2,13:59,13:59,13:56,13:57,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.863,D814,Skerries,SKRES,13:36:40,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,81,0,14:57,14:57,14:57,14:57,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.863,P720,Skerries,SKRES,13:36:40,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,19,-135,13:54,13:55,16:09,16:10,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:40.863,P717,Skerries,SKRES,13:36:40,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,51,0,14:26,14:27,14:26,14:27,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:41.77,A906,Mullingar,MLGAR,13:36:41,21 Nov 2026,Dublin Connolly,Sligo,13:05,16:19,En Route,Departed Leixlip (Louisa Bridge),47,2,14:21,14:23,14:20,14:21,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:41.77,A909,Mullingar,MLGAR,13:36:41,21 Nov 2026,Sligo,Dublin Connolly,13:05,16:11,En Route,Departed Ballymote,85,3,15:00,15:01,14:57,14:58,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:59.68,D812,Rush and Lusk,RLUSK,13:36:59,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,18,2,13:54,13:54,13:51,13:52,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:59.68,D814,Rush and Lusk,RLUSK,13:36:59,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,76,0,14:51,14:52,14:51,14:52,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:59.68,B123,Rush and Lusk,RLUSK,13:36:59,21 Nov 2026,Dundalk,Dublin Connolly,12:45,14:05,En Route,Departed Skerries,4,7,13:39,13:40,13:32,13:33,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:59.68,P720,Rush and Lusk,RLUSK,13:36:59,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,25,-135,14:01,14:01,16:16,16:16,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:36:59.68,P717,Rush and Lusk,RLUSK,13:36:59,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,57,0,14:33,14:33,14:33,14:33,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:00.49,D812,Donabate,DBATE,13:37:00,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,13,3,13:49,13:50,13:47,13:47,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:00.49,D814,Donabate,DBATE,13:37:00,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,71,0,14:47,14:48,14:47,14:48,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:00.49,B123,Donabate,DBATE,13:37:00,21 Nov 2026,Dundalk,Dublin Connolly,12:45,14:05,En Route,Departed Skerries,7,7,13:43,13:44,13:36,13:37,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:00.49,P720,Donabate,DBATE,13:37:00,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,28,-135,14:04,14:05,16:19,16:20,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:00.49,P717,Donabate,DBATE,13:37:00,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,60,0,14:36,14:37,14:36,14:37,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,D812,Malahide,MHIDE,13:37:01,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,9,3,13:45,13:46,13:43,13:43,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,E813,Malahide,MHIDE,13:37:01,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Departed Clontarf Road,21,2,13:58,00:00,13:56,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,E814,Malahide,MHIDE,13:37:01,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,51,1,14:28,00:00,14:27,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,D814,Malahide,MHIDE,13:37:01,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,66,0,14:43,14:43,14:43,14:43,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,E815,Malahide,MHIDE,13:37:01,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,79,0,14:56,00:00,14:56,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,B123,Malahide,MHIDE,13:37:01,21 Nov 2026,Dundalk,Dublin Connolly,12:45,14:05,En Route,Departed Skerries,12,7,13:48,13:49,13:41,13:42,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,E222,Malahide,MHIDE,13:37:01,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,26,0,00:00,14:03,00:00,14:03,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,P720,Malahide,MHIDE,13:37:01,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,33,-135,14:09,14:10,16:24,16:25,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,E224,Malahide,MHIDE,13:37:01,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,56,0,00:00,14:33,00:00,14:33,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,P717,Malahide,MHIDE,13:37:01,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,66,0,14:42,14:43,14:42,14:43,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:01.32,E225,Malahide,MHIDE,13:37:01,21 Nov 2026,Malahide,Bray,15:03,16:20,No Information,,86,0,00:00,15:03,00:00,15:03,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.13,D337,M3 Parkway,M3WAY,13:37:02,21 Nov 2026,Clonsilla,M3 Parkway,14:16,14:28,No Information,,51,0,14:28,00:00,14:28,00:00,Northbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.13,P336,M3 Parkway,M3WAY,13:37:02,21 Nov 2026,M3 Parkway,Clonsilla,13:38,13:50,No Information,,1,0,00:00,13:38,00:00,13:38,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.13,P337,M3 Parkway,M3WAY,13:37:02,21 Nov 2026,M3 Parkway,Clonsilla,14:38,14:50,No Information,,61,0,00:00,14:38,00:00,14:38,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.943,A717,Athlone,ATLNE,13:37:02,21 Nov 2026,Galway,Dublin Heuston,13:05,15:48,No Information,,37,0,14:12,14:14,14:12,14:14,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.943,A807,Athlone,ATLNE,13:37:02,21 Nov 2026,Westport,Dublin Heuston,13:10,16:27,No Information,,85,0,15:00,15:02,15:00,15:02,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.943,A714,Athlone,ATLNE,13:37:02,21 Nov 2026,Dublin Heuston,Galway,13:30,15:50,En Route,Departed Inchicore Advance Starter,75,1,14:50,14:52,14:49,14:51,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:02.943,A804,Athlone,ATLNE,13:37:02,21 Nov 2026,Dublin Heuston,Westport,12:45,15:59,En Route,Departed Geashill,38,2,14:09,14:15,14:07,14:13,To Westport,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:03.757,D337,Dunboyne,DBYNE,13:37:03,21 Nov 2026,Clonsilla,M3 Parkway,14:16,14:28,No Information,,46,0,14:23,14:23,14:23,14:23,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:03.757,P336,Dunboyne,DBYNE,13:37:03,21 Nov 2026,M3 Parkway,Clonsilla,13:38,13:50,No Information,,4,0,13:41,13:41,13:41,13:41,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:03.757,P337,Dunboyne,DBYNE,13:37:03,21 Nov 2026,M3 Parkway,Clonsilla,14:38,14:50,No Information,,64,0,14:41,14:41,14:41,14:41,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,D812,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Arrived Howth Junction,4,3,13:40,13:41,13:38,13:38,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,E813,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Departed Clontarf Road,14,2,13:50,13:51,13:48,13:49,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,E814,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,43,1,14:19,14:20,14:19,14:19,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,D814,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,61,0,14:38,14:38,14:38,14:38,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,E815,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,71,0,14:48,14:48,14:48,14:48,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,E221,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Portmarnock,0,0,13:37,13:37,13:37,13:37,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,B123,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Dundalk,Dublin Connolly,12:45,14:05,En Route,Departed Skerries,17,7,13:53,13:54,13:46,13:47,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,E222,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,30,0,14:07,14:07,14:07,14:07,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,P720,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,38,-135,14:14,14:15,16:29,16:30,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,E224,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,60,0,14:37,14:37,14:37,14:37,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:04.57,P717,Portmarnock,PMNCK,13:37:04,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,70,0,14:47,14:47,14:47,14:47,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:22.4,A906,Enfield,ENFLD,13:37:22,21 Nov 2026,Dublin Connolly,Sligo,13:05,16:19,En Route,Departed Leixlip (Louisa Bridge),19,1,13:55,13:56,13:54,13:55,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:23.203,A906,Kilcock,KCOCK,13:37:23,21 Nov 2026,Dublin Connolly,Sligo,13:05,16:19,En Route,Departed Leixlip (Louisa Bridge),9,1,13:45,13:46,13:44,13:45,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:23.203,A907,Kilcock,KCOCK,13:37:23,21 Nov 2026,Sligo,Dublin Connolly,11:05,14:11,En Route,Departed Enfield,4,8,13:40,13:41,13:32,13:33,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,D812,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Dublin Connolly,Drogheda,13:18,14:20,En Route,Departed Howth Junction,2,3,13:39,13:39,13:35,13:36,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,E813,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Departed Clontarf Road,11,2,13:48,13:48,13:46,13:46,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,E814,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,40,0,14:17,14:17,14:16,14:17,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,D814,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,59,0,14:35,14:36,14:35,14:36,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,E815,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,69,0,14:45,14:46,14:45,14:46,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,E221,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Portmarnock,2,-1,13:39,13:39,13:39,13:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,B123,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Dundalk,Dublin Connolly,12:45,14:05,En Route,Arrived Rush and Lusk,18,5,13:54,13:55,13:49,13:50,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,E222,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,33,0,14:09,14:10,14:09,14:10,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,P720,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,41,-135,14:17,14:18,16:32,16:33,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,E224,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,63,0,14:39,14:40,14:39,14:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:24.01,P717,Clongriffin,GRGRD,13:37:24,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,73,0,14:50,14:50,14:50,14:50,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E912,Sutton,SUTTN,13:37:25,21 Nov 2026,Bray,Howth,12:27,13:42,En Route,Arrived Bayside,2,5,13:38,13:39,13:34,13:34,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E913,Sutton,SUTTN,13:37:25,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,26,-1,14:03,14:03,14:04,14:04,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E914,Sutton,SUTTN,13:37:25,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,62,5,14:38,14:39,14:34,14:34,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E915,Sutton,SUTTN,13:37:25,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,87,0,15:04,15:04,15:04,15:04,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E107,Sutton,SUTTN,13:37:25,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,12,0,13:49,13:49,13:49,13:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E223,Sutton,SUTTN,13:37:25,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,46,0,14:23,14:23,14:23,14:23,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:25.213,E108,Sutton,SUTTN,13:37:25,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,72,0,14:49,14:49,14:49,14:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.107,E913,Bayside,BYSDE,13:37:26,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,24,-1,14:00,14:01,14:01,14:02,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.107,E914,Bayside,BYSDE,13:37:26,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,59,4,14:36,14:36,14:31,14:32,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.107,E915,Bayside,BYSDE,13:37:26,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,85,0,15:01,15:02,15:01,15:02,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.107,E107,Bayside,BYSDE,13:37:26,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,14,0,13:51,13:51,13:51,13:51,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.107,E223,Bayside,BYSDE,13:37:26,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,49,0,14:25,14:26,14:25,14:26,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.107,E108,Bayside,BYSDE,13:37:26,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,74,0,14:50,14:51,14:50,14:51,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E813,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Departed Clontarf Road,9,2,13:45,13:46,13:43,13:44,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E913,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,21,-1,13:58,13:58,13:59,13:59,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E814,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,38,1,14:14,14:15,14:14,14:14,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,D814,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,56,0,14:33,14:33,14:33,14:33,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E914,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,57,5,14:33,14:34,14:29,14:29,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E815,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,66,0,14:43,14:43,14:43,14:43,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E915,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,82,0,14:59,14:59,14:59,14:59,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E221,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Portmarnock,5,0,13:41,13:42,13:42,13:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E107,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,17,0,13:54,13:54,13:54,13:54,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E222,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,35,0,14:12,14:12,14:12,14:12,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,P720,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,44,-135,14:20,14:21,16:35,16:36,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E223,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,52,0,14:29,14:29,14:29,14:29,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E224,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,65,0,14:42,14:42,14:42,14:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,P717,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,75,0,14:52,14:52,14:52,14:52,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:26.933,E108,Howth Junction,HWTHJ,13:37:26,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,77,0,14:54,14:54,14:54,14:54,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:44.95,E912,Howth,HOWTH,13:37:44,21 Nov 2026,Bray,Howth,12:27,13:42,En Route,Departed Bayside,10,5,13:47,00:00,13:42,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:44.95,E913,Howth,HOWTH,13:37:44,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,35,0,14:12,00:00,14:12,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:44.95,E914,Howth,HOWTH,13:37:44,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,69,4,14:46,00:00,14:42,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:44.95,E107,Howth,HOWTH,13:37:44,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,9,0,00:00,13:46,00:00,13:46,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:44.95,E223,Howth,HOWTH,13:37:44,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,43,0,00:00,14:20,00:00,14:20,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:44.95,E108,Howth,HOWTH,13:37:44,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,69,0,00:00,14:46,00:00,14:46,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E813,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Arrived Killester,7,2,13:43,13:44,13:41,13:42,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E913,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,19,-1,13:56,13:56,13:57,13:57,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E814,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,36,1,14:12,14:13,14:12,14:12,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E914,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,55,5,14:31,14:32,14:27,14:27,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E815,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,64,0,14:41,14:41,14:41,14:41,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E915,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,80,0,14:57,14:57,14:57,14:57,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E221,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Portmarnock,7,0,13:43,13:44,13:44,13:44,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E107,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,19,0,13:56,13:56,13:56,13:56,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E222,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,37,0,14:14,14:14,14:14,14:14,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E223,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,54,0,14:31,14:31,14:31,14:31,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E224,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,67,0,14:44,14:44,14:44,14:44,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:45.743,E108,Kilbarrack,KBRCK,13:37:45,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,79,0,14:56,14:56,14:56,14:56,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:46.557,D337,Hansfield,HAFLD,13:37:46,21 Nov 2026,Clonsilla,M3 Parkway,14:16,14:28,No Information,,42,0,14:19,14:19,14:19,14:19,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:46.557,P336,Hansfield,HAFLD,13:37:46,21 Nov 2026,M3 Parkway,Clonsilla,13:38,13:50,No Information,,9,0,13:45,13:46,13:45,13:46,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:46.557,P337,Hansfield,HAFLD,13:37:46,21 Nov 2026,M3 Parkway,Clonsilla,14:38,14:50,No Information,,69,0,14:45,14:46,14:45,14:46,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,D915,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Dublin Connolly,Maynooth,13:17,14:00,En Route,Arrived Castleknock,6,0,13:43,13:43,13:42,13:43,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,D916,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,36,0,14:12,14:13,14:12,14:13,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,D337,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Clonsilla,M3 Parkway,14:16,14:28,No Information,,39,0,00:00,14:16,00:00,14:16,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,D917,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,66,0,14:42,14:43,14:42,14:43,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,P336,Clonsilla,CLSLA,13:37:47,21 Nov 2026,M3 Parkway,Clonsilla,13:38,13:50,No Information,,13,0,13:50,00:00,13:50,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,P754,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,24,0,14:00,14:01,14:00,14:01,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,P755,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,47,0,14:23,14:24,14:23,14:24,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,P337,Clonsilla,CLSLA,13:37:47,21 Nov 2026,M3 Parkway,Clonsilla,14:38,14:50,No Information,,73,0,14:50,00:00,14:50,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:47.37,P756,Clonsilla,CLSLA,13:37:47,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,77,0,14:53,14:54,14:53,14:54,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:48.29,D916,Castleknock,CNOCK,13:37:48,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,29,0,14:05,14:06,14:05,14:06,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:48.29,D917,Castleknock,CNOCK,13:37:48,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,59,0,14:35,14:36,14:35,14:36,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:48.29,D918,Castleknock,CNOCK,13:37:48,21 Nov 2026,Dublin Connolly,Maynooth,14:47,15:30,No Information,,89,0,15:05,15:06,15:05,15:06,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:48.29,P754,Castleknock,CNOCK,13:37:48,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,30,0,14:06,14:07,14:06,14:07,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:48.29,P755,Castleknock,CNOCK,13:37:48,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,53,0,14:29,14:30,14:29,14:30,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:48.29,P756,Castleknock,CNOCK,13:37:48,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,83,0,14:59,15:00,14:59,15:00,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E813,Raheny,RAHNY,13:37:49,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Arrived Killester,5,2,13:41,13:42,13:39,13:40,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E913,Raheny,RAHNY,13:37:49,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,17,-1,13:54,13:54,13:55,13:55,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E814,Raheny,RAHNY,13:37:49,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,34,1,14:10,14:11,14:10,14:10,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E914,Raheny,RAHNY,13:37:49,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,53,5,14:29,14:30,14:25,14:25,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E815,Raheny,RAHNY,13:37:49,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,62,0,14:39,14:39,14:39,14:39,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E915,Raheny,RAHNY,13:37:49,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,78,0,14:55,14:55,14:55,14:55,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E221,Raheny,RAHNY,13:37:49,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Portmarnock,9,-1,13:46,13:46,13:46,13:47,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E107,Raheny,RAHNY,13:37:49,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,22,0,13:58,13:59,13:58,13:59,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E222,Raheny,RAHNY,13:37:49,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,40,0,14:16,14:17,14:16,14:17,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E223,Raheny,RAHNY,13:37:49,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,57,0,14:33,14:34,14:33,14:34,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E224,Raheny,RAHNY,13:37:49,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,70,0,14:46,14:47,14:46,14:47,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:49.183,E108,Raheny,RAHNY,13:37:49,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,82,0,14:58,14:59,14:58,14:59,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E813,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Greystones,Malahide,12:30,13:56,En Route,Arrived Killester,3,2,13:39,13:40,13:37,13:38,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E913,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,15,-1,13:52,13:52,13:53,13:53,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E814,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Seapoint,32,1,14:08,14:09,14:08,14:08,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E914,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,51,5,14:27,14:28,14:23,14:23,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E815,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,60,0,14:37,14:37,14:37,14:37,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E915,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,76,0,14:53,14:53,14:53,14:53,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E221,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Portmarnock,11,-1,13:48,13:48,13:48,13:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E107,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,24,0,14:00,14:01,14:00,14:01,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E222,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,42,0,14:18,14:19,14:18,14:19,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E223,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,59,0,14:36,14:36,14:36,14:36,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E224,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,72,0,14:48,14:49,14:48,14:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:37:50.107,E108,Harmonstown,HTOWN,13:37:50,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,85,0,15:01,15:02,15:01,15:02,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,A906,Maynooth,MYNTH,13:38:08,21 Nov 2026,Dublin Connolly,Sligo,13:05,16:19,En Route,Departed Leixlip (Louisa Bridge),2,2,13:38,13:40,13:36,13:38,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,D915,Maynooth,MYNTH,13:38:08,21 Nov 2026,Dublin Connolly,Maynooth,13:17,14:00,En Route,Arrived Castleknock,23,1,14:01,00:00,14:00,00:00,Northbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,D916,Maynooth,MYNTH,13:38:08,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,52,0,14:30,00:00,14:30,00:00,Northbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,D917,Maynooth,MYNTH,13:38:08,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,82,0,15:00,00:00,15:00,00:00,Northbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,P754,Maynooth,MYNTH,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,7,0,00:00,13:45,00:00,13:45,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,A907,Maynooth,MYNTH,13:38:08,21 Nov 2026,Sligo,Dublin Connolly,11:05,14:11,En Route,Departed Enfield,10,8,13:46,13:48,13:38,13:40,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,P755,Maynooth,MYNTH,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,30,0,00:00,14:08,00:00,14:08,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,P756,Maynooth,MYNTH,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,60,0,00:00,14:38,00:00,14:38,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.03,P757,Maynooth,MYNTH,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,15:08,15:55,No Information,,90,0,00:00,15:08,00:00,15:08,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.843,D916,Navan Road Parkway,PHNPK,13:38:08,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,25,0,14:02,14:03,14:02,14:03,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.843,D917,Navan Road Parkway,PHNPK,13:38:08,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,55,0,14:32,14:33,14:32,14:33,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.843,D918,Navan Road Parkway,PHNPK,13:38:08,21 Nov 2026,Dublin Connolly,Maynooth,14:47,15:30,No Information,,85,0,15:02,15:03,15:02,15:03,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.843,P754,Navan Road Parkway,PHNPK,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,32,0,14:09,14:10,14:09,14:10,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.843,P755,Navan Road Parkway,PHNPK,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,55,0,14:32,14:33,14:32,14:33,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:08.843,P756,Navan Road Parkway,PHNPK,13:38:08,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,85,0,15:02,15:03,15:02,15:03,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:09.733,D915,Coolmine,CMINE,13:38:09,21 Nov 2026,Dublin Connolly,Maynooth,13:17,14:00,En Route,Arrived Castleknock,1,0,13:39,13:39,13:38,13:39,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:09.733,D916,Coolmine,CMINE,13:38:09,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,31,0,14:08,14:09,14:08,14:09,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:09.733,D917,Coolmine,CMINE,13:38:09,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,61,0,14:38,14:39,14:38,14:39,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:09.733,P754,Coolmine,CMINE,13:38:09,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,26,0,14:04,14:04,14:04,14:04,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:09.733,P755,Coolmine,CMINE,13:38:09,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,49,0,14:27,14:27,14:27,14:27,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:09.733,P756,Coolmine,CMINE,13:38:09,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,79,0,14:57,14:57,14:57,14:57,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:10.547,D916,Ashtown,ASHTN,13:38:10,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,22,0,14:00,14:00,14:00,14:00,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:10.547,D917,Ashtown,ASHTN,13:38:10,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,52,0,14:30,14:30,14:30,14:30,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:10.547,D918,Ashtown,ASHTN,13:38:10,21 Nov 2026,Dublin Connolly,Maynooth,14:47,15:30,No Information,,82,0,15:00,15:00,15:00,15:00,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:10.547,P754,Ashtown,ASHTN,13:38:10,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,34,0,14:12,14:12,14:12,14:12,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:10.547,P755,Ashtown,ASHTN,13:38:10,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,57,0,14:35,14:35,14:35,14:35,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:10.547,P756,Ashtown,ASHTN,13:38:10,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,87,0,15:05,15:05,15:05,15:05,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,D916,Pelletstown,PELTN,13:38:11,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,20,0,13:58,13:58,13:58,13:58,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,D917,Pelletstown,PELTN,13:38:11,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,50,0,14:28,14:28,14:28,14:28,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,D918,Pelletstown,PELTN,13:38:11,21 Nov 2026,Dublin Connolly,Maynooth,14:47,15:30,No Information,,80,0,14:58,14:58,14:58,14:58,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,P753,Pelletstown,PELTN,13:38:11,21 Nov 2026,Maynooth,Dublin Connolly,13:08,13:55,En Route,Departed Ashtown,2,2,13:39,13:40,13:37,13:38,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,P754,Pelletstown,PELTN,13:38:11,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,37,0,14:14,14:15,14:14,14:15,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,P755,Pelletstown,PELTN,13:38:11,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,60,0,14:37,14:38,14:37,14:38,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:11.373,P756,Pelletstown,PELTN,13:38:11,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,90,0,15:07,15:08,15:07,15:08,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.187,D915,Leixlip (Confey),LXCON,13:38:12,21 Nov 2026,Dublin Connolly,Maynooth,13:17,14:00,En Route,Departed Castleknock,12,2,13:50,13:50,13:48,13:48,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.187,D916,Leixlip (Confey),LXCON,13:38:12,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,40,0,14:18,14:18,14:18,14:18,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.187,D917,Leixlip (Confey),LXCON,13:38:12,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,70,0,14:48,14:48,14:48,14:48,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.187,P754,Leixlip (Confey),LXCON,13:38:12,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,17,0,13:54,13:55,13:54,13:55,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.187,P755,Leixlip (Confey),LXCON,13:38:12,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,40,0,14:17,14:18,14:17,14:18,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.187,P756,Leixlip (Confey),LXCON,13:38:12,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,70,0,14:47,14:48,14:47,14:48,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E913,Killester,KLSTR,13:38:12,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,12,-1,13:50,13:50,13:51,13:51,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E814,Killester,KLSTR,13:38:12,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Departed Seapoint,30,2,14:07,14:08,14:06,14:06,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E914,Killester,KLSTR,13:38:12,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,48,5,14:25,14:26,14:21,14:21,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E815,Killester,KLSTR,13:38:12,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,57,0,14:35,14:35,14:35,14:35,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E915,Killester,KLSTR,13:38:12,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,73,0,14:51,14:51,14:51,14:51,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E816,Killester,KLSTR,13:38:12,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,88,0,15:06,15:06,15:06,15:06,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E221,Killester,KLSTR,13:38:12,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,13,0,13:51,13:51,13:50,13:51,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E107,Killester,KLSTR,13:38:12,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,25,0,14:02,14:03,14:02,14:03,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E222,Killester,KLSTR,13:38:12,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,43,0,14:20,14:21,14:20,14:21,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E223,Killester,KLSTR,13:38:12,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,61,0,14:38,14:39,14:38,14:39,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E224,Killester,KLSTR,13:38:12,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,73,0,14:51,14:51,14:51,14:51,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:12.983,E108,Killester,KLSTR,13:38:12,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,87,0,15:04,15:05,15:04,15:05,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,D916,Broombridge,BBRDG,13:38:30,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,18,0,13:56,13:56,13:56,13:56,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,D917,Broombridge,BBRDG,13:38:30,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,48,0,14:26,14:26,14:26,14:26,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,D918,Broombridge,BBRDG,13:38:30,21 Nov 2026,Dublin Connolly,Maynooth,14:47,15:30,No Information,,78,0,14:56,14:56,14:56,14:56,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,P753,Broombridge,BBRDG,13:38:30,21 Nov 2026,Maynooth,Dublin Connolly,13:08,13:55,En Route,Departed Ashtown,5,2,13:42,13:43,13:40,13:41,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,A907,Broombridge,BBRDG,13:38:30,21 Nov 2026,Sligo,Dublin Connolly,11:05,14:11,En Route,Departed Enfield,30,8,14:07,14:08,13:59,14:00,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,P754,Broombridge,BBRDG,13:38:30,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,40,0,14:17,14:18,14:17,14:18,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:30.887,P755,Broombridge,BBRDG,13:38:30,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,63,0,14:40,14:41,14:40,14:41,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:31.683,D915,Leixlip (Louisa Bridge),LXLSA,13:38:31,21 Nov 2026,Dublin Connolly,Maynooth,13:17,14:00,En Route,Departed Castleknock,15,2,13:52,13:53,13:50,13:51,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:31.683,D916,Leixlip (Louisa Bridge),LXLSA,13:38:31,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,43,0,14:20,14:21,14:20,14:21,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:31.683,D917,Leixlip (Louisa Bridge),LXLSA,13:38:31,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,73,0,14:50,14:51,14:50,14:51,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:31.683,P754,Leixlip (Louisa Bridge),LXLSA,13:38:31,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,14,0,13:51,13:52,13:51,13:52,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:31.683,P755,Leixlip (Louisa Bridge),LXLSA,13:38:31,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,37,0,14:14,14:15,14:14,14:15,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:31.683,P756,Leixlip (Louisa Bridge),LXLSA,13:38:31,21 Nov 2026,Maynooth,Dublin Connolly,14:38,15:25,No Information,,67,0,14:44,14:45,14:44,14:45,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:32.497,A907,Drumcondra,DCDRA,13:38:32,21 Nov 2026,Sligo,Dublin Connolly,11:05,14:11,En Route,Departed Enfield,35,8,14:12,14:13,14:04,14:05,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E913,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,10,-1,13:47,13:48,13:48,13:49,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E814,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,25,-1,14:03,14:03,14:03,14:04,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E914,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,45,4,14:23,14:23,14:18,14:19,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E815,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,55,0,14:32,14:33,14:32,14:33,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E915,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,71,0,14:48,14:49,14:48,14:49,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E816,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,86,0,15:03,15:04,15:03,15:04,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E221,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,17,1,13:54,13:55,13:54,13:54,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E107,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,28,0,14:06,14:06,14:06,14:06,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E222,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,46,0,14:24,14:24,14:24,14:24,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E223,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,64,0,14:42,14:42,14:42,14:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E224,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,77,0,14:55,14:55,14:55,14:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:33.323,E108,Clontarf Road,CTARF,13:38:33,21 Nov 2026,Howth,Greystones,14:46,16:15,No Information,,89,0,15:07,15:07,15:07,15:07,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E913,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,6,-1,13:43,13:44,13:44,13:45,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,D916,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Maynooth,13:47,14:30,No Information,,9,0,00:00,13:47,00:00,13:47,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,A116,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Belfast,13:50,15:58,No Information,,12,0,00:00,13:50,00:00,13:50,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E814,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,22,0,13:59,14:00,13:59,14:00,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,D917,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Maynooth,14:17,15:00,No Information,,39,0,00:00,14:17,00:00,14:17,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,D814,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Drogheda,14:18,15:20,No Information,,40,0,00:00,14:18,00:00,14:18,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E914,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,42,5,14:19,14:20,14:14,14:15,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E815,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,51,0,14:28,14:29,14:28,14:29,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E754,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,61,0,14:39,00:00,14:39,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E915,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,67,0,14:44,14:45,14:44,14:45,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,D918,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Maynooth,14:47,15:30,No Information,,69,0,00:00,14:47,00:00,14:47,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,A118,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Belfast,14:50,16:58,No Information,,72,0,00:00,14:50,00:00,14:50,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E755,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,77,0,14:55,00:00,14:55,00:00,Northbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E816,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,82,0,14:59,15:00,14:59,15:00,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,A908,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Sligo,15:05,18:20,No Information,,87,0,00:00,15:05,00:00,15:05,Northbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E220,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Arrived Clontarf Road,5,-2,13:42,13:43,13:44,13:45,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,P714,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Drogheda,Dublin Connolly,12:48,13:49,En Route,Departed Kilbarrack,11,0,13:49,00:00,13:49,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,A606,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,17,0,00:00,13:55,00:00,13:55,Southbound,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,P753,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Maynooth,Dublin Connolly,13:08,13:55,En Route,Departed Ashtown,19,2,13:57,00:00,13:55,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E221,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,22,0,13:59,14:00,13:59,14:00,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,B123,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dundalk,Dublin Connolly,12:45,14:05,En Route,Arrived Rush and Lusk,34,7,14:12,00:00,14:05,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E107,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,34,0,14:11,14:12,14:11,14:12,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,A113,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Belfast,Dublin Connolly,12:00,14:15,En Route,Departed Drogheda,36,-1,14:14,00:00,14:15,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,A907,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Sligo,Dublin Connolly,11:05,14:11,En Route,Departed Enfield,41,8,14:19,00:00,14:11,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E222,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,52,0,14:29,14:30,14:29,14:30,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,P754,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Maynooth,Dublin Connolly,13:45,14:32,No Information,,54,0,14:32,00:00,14:32,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,P720,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Drogheda,Dublin Connolly,15:48,16:48,En Route,Departed Drogheda,55,-135,14:33,00:00,16:48,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E550,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Lansdowne Road,14:40,14:51,No Information,,62,0,00:00,14:40,00:00,14:40,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E223,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,72,0,14:47,14:50,14:47,14:50,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,P755,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Maynooth,Dublin Connolly,14:08,14:55,No Information,,77,0,14:55,00:00,14:55,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E224,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,83,0,15:00,15:01,15:00,15:01,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,E551,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Dublin Connolly,Lansdowne Road,15:06,15:16,No Information,,88,0,00:00,15:06,00:00,15:06,Southbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:34.127,P717,Dublin Connolly,CNLLY,13:38:34,21 Nov 2026,Drogheda,Dublin Connolly,14:05,15:06,No Information,,88,0,15:06,00:00,15:06,00:00,Southbound,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E913,Tara Street,TARA,13:38:35,21 Nov 2026,Bray,Howth,12:57,14:12,En Route,Arrived Dublin Pearse,2,-1,13:39,13:40,13:40,13:41,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E814,Tara Street,TARA,13:38:35,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,18,0,13:55,13:56,13:55,13:56,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E914,Tara Street,TARA,13:38:35,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Shankill,38,5,14:15,14:16,14:10,14:11,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E815,Tara Street,TARA,13:38:35,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,47,0,14:24,14:25,14:24,14:25,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E754,Tara Street,TARA,13:38:35,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,57,0,14:34,14:35,14:34,14:35,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E915,Tara Street,TARA,13:38:35,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,63,0,14:40,14:41,14:40,14:41,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E755,Tara Street,TARA,13:38:35,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,71,0,14:48,14:49,14:48,14:49,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E816,Tara Street,TARA,13:38:35,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,78,0,14:55,14:56,14:55,14:56,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E220,Tara Street,TARA,13:38:35,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Arrived Clontarf Road,8,-2,13:45,13:46,13:47,13:48,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,A606,Tara Street,TARA,13:38:35,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,20,0,13:57,13:58,13:57,13:58,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E221,Tara Street,TARA,13:38:35,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,25,0,14:02,14:03,14:02,14:03,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E107,Tara Street,TARA,13:38:35,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,37,0,14:14,14:15,14:14,14:15,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E222,Tara Street,TARA,13:38:35,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,55,0,14:32,14:33,14:32,14:33,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E550,Tara Street,TARA,13:38:35,21 Nov 2026,Dublin Connolly,Lansdowne Road,14:40,14:51,No Information,,65,0,14:42,14:43,14:42,14:43,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E223,Tara Street,TARA,13:38:35,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,75,0,14:52,14:53,14:52,14:53,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:35.847,E224,Tara Street,TARA,13:38:35,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,86,0,15:03,15:04,15:03,15:04,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,A216,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Dublin Heuston,Cork,14:00,16:39,No Information,,22,0,00:00,14:00,00:00,14:00,To Cork,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,A218,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Dublin Heuston,Cork,15:00,17:32,No Information,,82,0,00:00,15:00,00:00,15:00,To Cork,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,A713,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Galway,Dublin Heuston,11:05,13:40,En Route,Departed Park West and Cherry Orchard,3,1,13:41,00:00,13:40,00:00,To Dublin Heuston,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,P215,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Portlaoise,Dublin Heuston,12:30,13:43,En Route,Departed Park West and Cherry Orchard,8,3,13:46,00:00,13:43,00:00,To Dublin Heuston,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,A213,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Cork,Dublin Heuston,11:25,13:59,En Route,Departed Monasterevin,32,11,14:10,00:00,13:59,00:00,To Dublin Heuston,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,P217,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,64,5,14:42,00:00,14:37,00:00,To Dublin Heuston,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,A215,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Cork,Dublin Heuston,12:25,14:59,En Route,Arrived Limerick Junction,87,6,15:05,00:00,14:59,00:00,To Dublin Heuston,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,D214,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,37,0,00:00,14:15,00:00,14:15,To Portlaoise,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:53.66,A806,Dublin Heuston,HSTON,13:38:53,21 Nov 2026,Dublin Heuston,Westport,14:45,18:02,No Information,,67,0,00:00,14:45,00:00,14:45,To Westport,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E814,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,15,-1,13:52,13:53,13:53,13:54,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E914,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,35,4,14:12,14:13,14:08,14:09,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E815,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,45,0,14:22,14:23,14:22,14:23,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E754,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,54,0,14:31,14:32,14:31,14:32,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E915,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,61,0,14:38,14:39,14:38,14:39,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E755,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,69,0,14:46,14:47,14:46,14:47,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E816,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,76,0,14:53,14:54,14:53,14:54,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E220,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Arrived Clontarf Road,10,-2,13:47,13:48,13:49,13:50,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,A606,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,22,0,13:59,14:00,13:59,14:00,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E221,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,27,0,14:04,14:05,14:04,14:05,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E107,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,39,0,14:16,14:17,14:16,14:17,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E222,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,57,0,14:34,14:35,14:34,14:35,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E550,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Dublin Connolly,Lansdowne Road,14:40,14:51,No Information,,68,0,14:45,14:46,14:45,14:46,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E223,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,77,0,14:54,14:55,14:54,14:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:54.583,E224,Dublin Pearse,PERSE,13:38:54,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,88,0,15:05,15:06,15:05,15:06,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E814,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,12,-1,13:49,13:50,13:50,13:51,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E914,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,32,4,14:09,14:10,14:05,14:06,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E815,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,42,0,14:19,14:20,14:19,14:20,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E754,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,51,1,14:28,14:29,14:28,14:28,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E915,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,58,0,14:35,14:36,14:35,14:36,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E755,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,66,0,14:44,14:44,14:44,14:44,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E816,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,73,0,14:50,14:51,14:50,14:51,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E916,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,88,0,15:05,15:06,15:05,15:06,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E220,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Arrived Clontarf Road,13,-1,13:50,13:51,13:51,13:52,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E221,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,30,1,14:07,14:08,14:06,14:07,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E107,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,41,0,14:18,14:19,14:18,14:19,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E222,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,59,0,14:36,14:37,14:36,14:37,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E550,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Dublin Connolly,Lansdowne Road,14:40,14:51,No Information,,70,0,14:48,14:48,14:48,14:48,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E223,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,79,0,14:56,14:57,14:56,14:57,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:56.21,E224,Grand Canal Dock,GCDK,13:38:56,21 Nov 2026,Malahide,Bray,14:33,15:52,No Information,,90,0,15:07,15:08,15:07,15:08,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:57.123,A717,Clara,CLARA,13:38:57,21 Nov 2026,Galway,Dublin Heuston,13:05,15:48,No Information,,55,0,14:28,14:33,14:28,14:33,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:57.123,A804,Clara,CLARA,13:38:57,21 Nov 2026,Dublin Heuston,Westport,12:45,15:59,En Route,Departed Geashill,13,2,13:49,13:51,13:47,13:49,To Westport,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:57.933,A717,Ballinasloe,BSLOE,13:38:57,21 Nov 2026,Galway,Dublin Heuston,13:05,15:48,No Information,,16,0,13:52,13:54,13:52,13:54,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:57.933,A714,Ballinasloe,BSLOE,13:38:57,21 Nov 2026,Dublin Heuston,Galway,13:30,15:50,En Route,Arrived Clondalkin,89,0,15:06,15:07,15:05,15:07,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:58.74,P217,Adamstown,ADMTN,13:38:58,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,44,6,14:21,14:22,14:15,14:16,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:58.74,D212,Adamstown,ADMTN,13:38:58,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Arrived Adamstown,1,0,13:39,13:39,13:38,13:39,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:38:58.74,D214,Adamstown,ADMTN,13:38:58,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,56,0,14:33,14:34,14:33,14:34,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:16.573,P217,Adamstown,ADMTN,13:39:16,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,43,6,14:21,14:22,14:15,14:16,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:16.573,D212,Adamstown,ADMTN,13:39:16,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Arrived Adamstown,0,0,13:39,13:39,13:38,13:39,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:16.573,D214,Adamstown,ADMTN,13:39:16,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,55,0,14:33,14:34,14:33,14:34,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:17.45,P217,Adamstown,ADMTN,13:39:17,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,43,6,14:21,14:22,14:15,14:16,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:17.45,D212,Adamstown,ADMTN,13:39:17,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Arrived Adamstown,0,0,13:39,13:39,13:38,13:39,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:17.45,D214,Adamstown,ADMTN,13:39:17,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,55,0,14:33,14:34,14:33,14:34,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E814,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,8,-1,13:47,13:47,13:47,13:48,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E914,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,28,4,14:06,14:07,14:02,14:03,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E815,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,,38,0,14:16,14:17,14:16,14:17,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E754,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,48,1,14:26,14:27,14:25,14:26,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E915,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,54,0,14:32,14:33,14:32,14:33,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E755,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,63,0,14:41,14:42,14:41,14:42,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E816,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,69,0,14:47,14:48,14:47,14:48,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E916,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,84,0,15:02,15:03,15:02,15:03,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E219,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,0,-1,13:39,13:39,13:39,13:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E220,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Arrived Clontarf Road,14,-2,13:53,13:53,13:54,13:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E221,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Portmarnock,31,0,14:10,14:10,14:09,14:10,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E107,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,43,0,14:21,14:22,14:21,14:22,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E222,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,61,0,14:39,14:40,14:39,14:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E550,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Dublin Connolly,Lansdowne Road,14:40,14:51,No Information,,72,0,14:51,00:00,14:51,00:00,Southbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:18.26,E223,Lansdowne Road,LDWNE,13:39:18,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,81,0,14:59,15:00,14:59,15:00,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:19.09,P217,Kishoge,KISHO,13:39:19,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,46,5,14:24,14:25,14:19,14:20,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:19.09,D214,Kishoge,KISHO,13:39:19,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,51,0,14:29,14:30,14:29,14:30,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:19.9,P217,Kishoge,KISHO,13:39:19,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,46,5,14:24,14:25,14:19,14:20,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:19.9,D214,Kishoge,KISHO,13:39:19,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,51,0,14:29,14:30,14:29,14:30,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:20.697,P217,Kishoge,KISHO,13:39:20,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,46,5,14:24,14:25,14:19,14:20,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:20.697,D214,Kishoge,KISHO,13:39:20,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,51,0,14:29,14:30,14:29,14:30,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:21.51,P217,Park West and Cherry Orchard,CHORC,13:39:21,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,52,5,14:30,14:31,14:25,14:26,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:21.51,D214,Park West and Cherry Orchard,CHORC,13:39:21,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,44,0,14:22,14:23,14:22,14:23,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:40.153,P217,Park West and Cherry Orchard,CHORC,13:39:40,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,52,5,14:30,14:31,14:25,14:26,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:40.153,D214,Park West and Cherry Orchard,CHORC,13:39:40,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,44,0,14:22,14:23,14:22,14:23,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:40.967,P217,Clondalkin,CLDKN,13:39:40,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,49,5,14:27,14:28,14:22,14:23,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:40.967,D214,Clondalkin,CLDKN,13:39:40,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,47,0,14:25,14:26,14:25,14:26,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:41.873,P217,Clondalkin,CLDKN,13:39:41,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,49,5,14:27,14:28,14:22,14:23,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:41.873,D214,Clondalkin,CLDKN,13:39:41,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,47,0,14:25,14:26,14:25,14:26,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:42.687,P217,Clondalkin,CLDKN,13:39:42,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,49,5,14:27,14:28,14:22,14:23,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:42.687,D214,Clondalkin,CLDKN,13:39:42,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,47,0,14:25,14:26,14:25,14:26,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E814,Sandymount,SMONT,13:39:43,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,6,-1,13:45,13:45,13:45,13:46,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E914,Sandymount,SMONT,13:39:43,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,26,4,14:04,14:05,14:00,14:01,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E815,Sandymount,SMONT,13:39:43,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,35,-1,14:13,14:14,14:14,14:15,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E754,Sandymount,SMONT,13:39:43,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,46,1,14:24,14:25,14:24,14:24,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E915,Sandymount,SMONT,13:39:43,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,52,0,14:30,14:31,14:30,14:31,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E755,Sandymount,SMONT,13:39:43,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,61,0,14:39,14:40,14:39,14:40,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E816,Sandymount,SMONT,13:39:43,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,67,0,14:45,14:46,14:45,14:46,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E916,Sandymount,SMONT,13:39:43,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,82,0,15:00,15:01,15:00,15:01,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E219,Sandymount,SMONT,13:39:43,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,2,-1,13:41,13:41,13:41,13:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E220,Sandymount,SMONT,13:39:43,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,17,-1,13:56,13:56,13:56,13:57,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E221,Sandymount,SMONT,13:39:43,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,32,-1,14:11,14:11,14:11,14:12,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E107,Sandymount,SMONT,13:39:43,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,45,0,14:23,14:24,14:23,14:24,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E222,Sandymount,SMONT,13:39:43,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,63,0,14:41,14:42,14:41,14:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:43.497,E223,Sandymount,SMONT,13:39:43,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,82,0,15:01,15:01,15:01,15:01,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:44.31,P217,Hazelhatch,HZLCH,13:39:44,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,39,6,14:17,14:18,14:11,14:12,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:44.31,D212,Hazelhatch,HZLCH,13:39:44,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Arrived Adamstown,5,0,13:43,13:44,13:43,13:44,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:39:44.31,D214,Hazelhatch,HZLCH,13:39:44,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,60,0,14:38,14:39,14:38,14:39,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:02.107,P217,Hazelhatch,HZLCH,13:40:02,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,38,6,14:17,14:18,14:11,14:12,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:02.107,D212,Hazelhatch,HZLCH,13:40:02,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Arrived Adamstown,4,0,13:43,13:44,13:43,13:44,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:02.107,D214,Hazelhatch,HZLCH,13:40:02,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,59,0,14:38,14:39,14:38,14:39,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:02.92,P217,Hazelhatch,HZLCH,13:40:02,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,38,6,14:17,14:18,14:11,14:12,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:02.92,D212,Hazelhatch,HZLCH,13:40:02,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Arrived Adamstown,4,0,13:43,13:44,13:43,13:44,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:02.92,D214,Hazelhatch,HZLCH,13:40:02,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,59,0,14:38,14:39,14:38,14:39,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E814,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,3,0,13:42,13:43,13:43,13:43,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E914,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,22,4,14:02,14:02,13:58,13:58,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E815,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,31,-1,14:11,14:11,14:12,14:12,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E754,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,43,1,14:22,14:23,14:22,14:22,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E915,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,48,0,14:28,14:28,14:28,14:28,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E755,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,57,0,14:36,14:37,14:36,14:37,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E816,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,63,0,14:43,14:43,14:43,14:43,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E916,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,78,0,14:58,14:58,14:58,14:58,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E219,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,4,0,13:43,13:44,13:44,13:44,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E220,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,19,0,13:58,13:59,13:59,13:59,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E221,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,34,0,14:13,14:14,14:14,14:14,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E107,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,46,0,14:26,14:26,14:26,14:26,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E222,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,64,0,14:44,14:44,14:44,14:44,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:04.547,E223,Sydney Parade,SIDNY,13:40:04,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,84,0,15:03,15:04,15:03,15:04,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E814,Booterstown,BTSTN,13:40:05,21 Nov 2026,Bray,Malahide,13:12,14:27,En Route,Arrived Blackrock,0,-1,13:40,13:40,13:40,13:41,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E914,Booterstown,BTSTN,13:40:05,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,20,4,13:59,14:00,13:55,13:56,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E815,Booterstown,BTSTN,13:40:05,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,29,-1,14:08,14:09,14:09,14:10,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E754,Booterstown,BTSTN,13:40:05,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,40,0,14:20,14:20,14:19,14:20,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E915,Booterstown,BTSTN,13:40:05,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,46,0,14:25,14:26,14:25,14:26,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E755,Booterstown,BTSTN,13:40:05,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,54,0,14:34,14:34,14:34,14:34,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E816,Booterstown,BTSTN,13:40:05,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,61,0,14:40,14:41,14:40,14:41,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E916,Booterstown,BTSTN,13:40:05,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,76,0,14:55,14:56,14:55,14:56,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E219,Booterstown,BTSTN,13:40:05,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,6,-1,13:46,13:46,13:46,13:47,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E220,Booterstown,BTSTN,13:40:05,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,21,-1,14:01,14:01,14:01,14:02,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E221,Booterstown,BTSTN,13:40:05,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,36,-1,14:16,14:16,14:16,14:17,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E107,Booterstown,BTSTN,13:40:05,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,49,0,14:28,14:29,14:28,14:29,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E222,Booterstown,BTSTN,13:40:05,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,67,0,14:46,14:47,14:46,14:47,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:05.377,E223,Booterstown,BTSTN,13:40:05,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,87,0,15:06,15:07,15:06,15:07,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E914,Blackrock,BROCK,13:40:06,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Arrived Killiney,18,4,13:57,13:58,13:53,13:54,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E815,Blackrock,BROCK,13:40:06,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,27,-1,14:06,14:07,14:07,14:08,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E754,Blackrock,BROCK,13:40:06,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,37,0,14:17,14:17,14:16,14:17,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E915,Blackrock,BROCK,13:40:06,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,44,0,14:23,14:24,14:23,14:24,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E755,Blackrock,BROCK,13:40:06,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,52,0,14:31,14:32,14:31,14:32,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E816,Blackrock,BROCK,13:40:06,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,59,0,14:38,14:39,14:38,14:39,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E916,Blackrock,BROCK,13:40:06,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,74,0,14:53,14:54,14:53,14:54,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E817,Blackrock,BROCK,13:40:06,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,88,0,15:08,15:08,15:08,15:08,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E219,Blackrock,BROCK,13:40:06,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,8,-1,13:48,13:48,13:48,13:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E220,Blackrock,BROCK,13:40:06,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,23,-1,14:03,14:03,14:03,14:04,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E221,Blackrock,BROCK,13:40:06,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,38,-1,14:18,14:18,14:18,14:19,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E107,Blackrock,BROCK,13:40:06,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,51,0,14:30,14:31,14:30,14:31,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E222,Blackrock,BROCK,13:40:06,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,69,0,14:48,14:49,14:48,14:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:06.173,E223,Blackrock,BROCK,13:40:06,21 Nov 2026,Howth,Bray,14:20,15:40,No Information,,89,0,15:08,15:09,15:08,15:09,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:07,A710,Athenry,ATHRY,13:40:07,21 Nov 2026,Dublin Heuston,Galway,11:30,13:51,En Route,Arrived Athenry,2,10,13:43,13:42,13:29,13:32,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:07,A485,Athenry,ATHRY,13:40:07,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,31,0,14:07,14:11,14:07,14:11,To Limerick,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E914,Seapoint,SEAPT,13:40:24,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Killiney,17,5,13:56,13:57,13:51,13:52,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E815,Seapoint,SEAPT,13:40:24,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,24,-1,14:04,14:04,14:05,14:05,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E754,Seapoint,SEAPT,13:40:24,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,35,0,14:15,14:15,14:14,14:15,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E915,Seapoint,SEAPT,13:40:24,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,42,0,14:21,14:22,14:21,14:22,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E755,Seapoint,SEAPT,13:40:24,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,50,0,14:30,14:30,14:30,14:30,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E816,Seapoint,SEAPT,13:40:24,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,56,0,14:36,14:36,14:36,14:36,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E916,Seapoint,SEAPT,13:40:24,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,71,0,14:51,14:51,14:51,14:51,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E817,Seapoint,SEAPT,13:40:24,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,86,0,15:05,15:06,15:05,15:06,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E219,Seapoint,SEAPT,13:40:24,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,10,-1,13:50,13:50,13:50,13:51,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E220,Seapoint,SEAPT,13:40:24,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,25,-1,14:05,14:05,14:05,14:06,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E221,Seapoint,SEAPT,13:40:24,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,40,-1,14:20,14:20,14:20,14:21,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E107,Seapoint,SEAPT,13:40:24,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,53,0,14:32,14:33,14:32,14:33,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:24.8,E222,Seapoint,SEAPT,13:40:24,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,71,0,14:50,14:51,14:50,14:51,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E914,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Killiney,15,5,13:54,13:55,13:49,13:50,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E815,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,23,-1,14:02,14:03,14:03,14:04,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E754,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,34,1,14:13,14:14,14:13,14:13,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E915,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,40,0,14:19,14:20,14:19,14:20,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E755,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,48,0,14:27,14:28,14:27,14:28,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E816,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,55,0,14:34,14:35,14:34,14:35,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E916,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,70,0,14:49,14:50,14:49,14:50,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E817,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,84,0,15:04,15:04,15:04,15:04,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E219,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,12,-1,13:52,13:52,13:52,13:53,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E220,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,27,-1,14:07,14:07,14:07,14:08,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E221,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,42,-1,14:22,14:22,14:22,14:23,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E107,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,55,0,14:34,14:35,14:34,14:35,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:25.613,E222,Salthill and Monkstown,SHILL,13:40:25,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,73,0,14:52,14:53,14:52,14:53,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E914,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Killiney,12,5,13:52,13:52,13:47,13:47,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E815,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,20,-1,14:00,14:00,14:01,14:01,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E754,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,31,0,14:11,14:11,14:10,14:11,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E915,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,37,0,14:17,14:17,14:17,14:17,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E755,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,46,0,14:25,14:26,14:25,14:26,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E816,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,52,0,14:32,14:32,14:32,14:32,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E916,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,67,0,14:47,14:47,14:47,14:47,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E817,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,82,0,15:01,15:02,15:01,15:02,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E219,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,15,0,13:54,13:55,13:55,13:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E220,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,30,0,14:09,14:10,14:10,14:10,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,A606,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,41,0,14:19,14:21,14:19,14:21,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E221,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,45,0,14:24,14:25,14:25,14:25,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E107,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,57,0,14:37,14:37,14:37,14:37,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:26.427,E222,Dun Laoghaire,DLERY,13:40:26,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,75,0,14:55,14:55,14:55,14:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E914,Sandycove,SCOVE,13:40:27,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Killiney,9,5,13:48,13:49,13:43,13:44,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E815,Sandycove,SCOVE,13:40:27,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,17,-1,13:56,13:57,13:57,13:58,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E754,Sandycove,SCOVE,13:40:27,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,28,0,14:08,14:08,14:07,14:08,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E915,Sandycove,SCOVE,13:40:27,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,34,0,14:13,14:14,14:13,14:14,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E755,Sandycove,SCOVE,13:40:27,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,42,0,14:22,14:22,14:22,14:22,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E816,Sandycove,SCOVE,13:40:27,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,49,0,14:28,14:29,14:28,14:29,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E916,Sandycove,SCOVE,13:40:27,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,64,0,14:43,14:44,14:43,14:44,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E817,Sandycove,SCOVE,13:40:27,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,78,0,14:58,14:58,14:58,14:58,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E106,Sandycove,SCOVE,13:40:27,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,2,2,13:42,13:42,13:40,13:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E219,Sandycove,SCOVE,13:40:27,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,18,0,13:57,13:58,13:58,13:58,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E220,Sandycove,SCOVE,13:40:27,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,33,0,14:12,14:13,14:13,14:13,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E221,Sandycove,SCOVE,13:40:27,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,48,0,14:27,14:28,14:28,14:28,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E107,Sandycove,SCOVE,13:40:27,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,60,0,14:40,14:40,14:40,14:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:27.253,E222,Sandycove,SCOVE,13:40:27,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,78,0,14:58,14:58,14:58,14:58,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E914,Glenageary,GLGRY,13:40:28,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Killiney,7,5,13:46,13:47,13:41,13:42,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E815,Glenageary,GLGRY,13:40:28,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,15,-1,13:54,13:55,13:55,13:56,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E754,Glenageary,GLGRY,13:40:28,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,26,0,14:06,14:06,14:05,14:06,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E915,Glenageary,GLGRY,13:40:28,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,32,0,14:11,14:12,14:11,14:12,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E755,Glenageary,GLGRY,13:40:28,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,41,0,14:20,14:21,14:20,14:21,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E816,Glenageary,GLGRY,13:40:28,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,47,0,14:26,14:27,14:26,14:27,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E916,Glenageary,GLGRY,13:40:28,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,62,0,14:41,14:42,14:41,14:42,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E817,Glenageary,GLGRY,13:40:28,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,76,0,14:56,14:56,14:56,14:56,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E106,Glenageary,GLGRY,13:40:28,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,4,2,13:44,13:44,13:42,13:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E219,Glenageary,GLGRY,13:40:28,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,20,0,13:59,14:00,14:00,14:00,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E220,Glenageary,GLGRY,13:40:28,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,35,0,14:14,14:15,14:15,14:15,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E221,Glenageary,GLGRY,13:40:28,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,50,0,14:29,14:30,14:30,14:30,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E107,Glenageary,GLGRY,13:40:28,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,62,0,14:42,14:42,14:42,14:42,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.067,E222,Glenageary,GLGRY,13:40:28,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,80,0,15:00,15:00,15:00,15:00,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E914,Dalkey,DLKEY,13:40:28,21 Nov 2026,Bray,Howth,13:27,14:42,En Route,Departed Killiney,4,5,13:44,13:44,13:39,13:39,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E815,Dalkey,DLKEY,13:40:28,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,12,-1,13:52,13:52,13:53,13:53,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E754,Dalkey,DLKEY,13:40:28,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,23,1,14:02,14:03,14:02,14:02,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E915,Dalkey,DLKEY,13:40:28,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,29,0,14:09,14:09,14:09,14:09,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E755,Dalkey,DLKEY,13:40:28,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,38,0,14:17,14:18,14:17,14:18,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E816,Dalkey,DLKEY,13:40:28,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,44,0,14:24,14:24,14:24,14:24,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E916,Dalkey,DLKEY,13:40:28,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,59,0,14:39,14:39,14:39,14:39,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E817,Dalkey,DLKEY,13:40:28,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,74,0,14:53,14:54,14:53,14:54,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E917,Dalkey,DLKEY,13:40:28,21 Nov 2026,Bray,Howth,14:57,16:12,No Information,,89,0,15:09,15:09,15:09,15:09,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E218,Dalkey,DLKEY,13:40:28,21 Nov 2026,Malahide,Bray,12:33,13:50,En Route,Departed Glenageary,2,9,13:41,13:42,13:32,13:33,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E106,Dalkey,DLKEY,13:40:28,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,7,2,13:46,13:47,13:44,13:45,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E219,Dalkey,DLKEY,13:40:28,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,22,-1,14:02,14:02,14:02,14:03,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E220,Dalkey,DLKEY,13:40:28,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,37,-1,14:17,14:17,14:17,14:18,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E221,Dalkey,DLKEY,13:40:28,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,52,-1,14:32,14:32,14:32,14:33,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E107,Dalkey,DLKEY,13:40:28,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,65,0,14:44,14:45,14:44,14:45,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:28.963,E222,Dalkey,DLKEY,13:40:28,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,83,0,15:02,15:03,15:02,15:03,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:29.793,A710,Oranmore,ORNMR,13:40:29,21 Nov 2026,Dublin Heuston,Galway,11:30,13:51,En Route,Arrived Athenry,12,11,13:51,13:52,13:40,13:41,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:29.793,A485,Oranmore,ORNMR,13:40:29,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,17,0,13:56,13:57,13:56,13:57,To Limerick,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:47.6,A721,Galway,GALWY,13:40:47,21 Nov 2026,Galway,Dublin Heuston,15:05,17:44,No Information,,85,0,00:00,15:05,00:00,15:05,To Dublin Heuston,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:47.6,A710,Galway,GALWY,13:40:47,21 Nov 2026,Dublin Heuston,Galway,11:30,13:51,En Route,Arrived Athenry,25,14,14:05,00:00,13:51,00:00,To Galway,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:47.6,A485,Galway,GALWY,13:40:47,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,5,0,00:00,13:45,00:00,13:45,To Limerick,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:48.413,A717,Tullamore,TMORE,13:40:48,21 Nov 2026,Galway,Dublin Heuston,13:05,15:48,No Information,,63,0,14:41,14:43,14:41,14:43,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:48.413,A714,Tullamore,TMORE,13:40:48,21 Nov 2026,Dublin Heuston,Galway,13:30,15:50,En Route,Departed Clondalkin,46,2,14:24,14:26,14:22,14:24,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:48.413,A804,Tullamore,TMORE,13:40:48,21 Nov 2026,Dublin Heuston,Westport,12:45,15:59,En Route,Arrived Tullamore,0,1,13:39,13:40,13:37,13:39,To Westport,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E815,Killiney,KILNY,13:40:49,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,8,-1,13:47,13:48,13:48,13:49,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E754,Killiney,KILNY,13:40:49,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,19,1,13:58,13:59,13:58,13:58,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E915,Killiney,KILNY,13:40:49,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,25,0,14:04,14:05,14:04,14:05,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E755,Killiney,KILNY,13:40:49,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,33,0,14:13,14:13,14:13,14:13,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E816,Killiney,KILNY,13:40:49,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,40,0,14:19,14:20,14:19,14:20,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E916,Killiney,KILNY,13:40:49,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,55,0,14:34,14:35,14:34,14:35,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E817,Killiney,KILNY,13:40:49,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,69,0,14:49,14:49,14:49,14:49,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E917,Killiney,KILNY,13:40:49,21 Nov 2026,Bray,Howth,14:57,16:12,No Information,,85,0,15:04,15:05,15:04,15:05,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E218,Killiney,KILNY,13:40:49,21 Nov 2026,Malahide,Bray,12:33,13:50,En Route,Departed Glenageary,6,9,13:46,13:46,13:37,13:37,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E106,Killiney,KILNY,13:40:49,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,11,2,13:51,13:51,13:49,13:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E219,Killiney,KILNY,13:40:49,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,27,0,14:06,14:07,14:07,14:07,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E220,Killiney,KILNY,13:40:49,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,42,0,14:21,14:22,14:22,14:22,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E221,Killiney,KILNY,13:40:49,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Arrived Clongriffin,57,0,14:36,14:37,14:37,14:37,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E107,Killiney,KILNY,13:40:49,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,69,0,14:49,14:49,14:49,14:49,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:49.227,E222,Killiney,KILNY,13:40:49,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,87,0,15:07,15:07,15:07,15:07,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.037,P217,Sallins,SALNS,13:40:50,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Arrived Portarlington,29,6,14:08,14:09,14:02,14:03,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.037,P219,Sallins,SALNS,13:40:50,21 Nov 2026,Portlaoise,Dublin Heuston,14:28,15:39,No Information,,86,0,15:05,15:06,15:05,15:06,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.037,D212,Sallins,SALNS,13:40:50,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Departed Adamstown,14,1,13:53,13:54,13:52,13:53,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.037,D214,Sallins,SALNS,13:40:50,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,68,0,14:47,14:48,14:47,14:48,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E815,Shankill,SKILL,13:40:50,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,5,-1,13:45,13:45,13:46,13:46,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E754,Shankill,SKILL,13:40:50,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,16,1,13:55,13:56,13:55,13:55,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E915,Shankill,SKILL,13:40:50,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,22,0,14:02,14:02,14:02,14:02,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E755,Shankill,SKILL,13:40:50,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,30,0,14:10,14:10,14:10,14:10,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E816,Shankill,SKILL,13:40:50,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,37,0,14:17,14:17,14:17,14:17,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E916,Shankill,SKILL,13:40:50,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,52,0,14:32,14:32,14:32,14:32,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E817,Shankill,SKILL,13:40:50,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,67,0,14:46,14:47,14:46,14:47,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E917,Shankill,SKILL,13:40:50,21 Nov 2026,Bray,Howth,14:57,16:12,No Information,,82,0,15:02,15:02,15:02,15:02,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E218,Shankill,SKILL,13:40:50,21 Nov 2026,Malahide,Bray,12:33,13:50,En Route,Departed Glenageary,9,9,13:49,13:49,13:40,13:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E106,Shankill,SKILL,13:40:50,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,14,2,13:54,13:54,13:52,13:52,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E219,Shankill,SKILL,13:40:50,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,30,0,14:09,14:10,14:10,14:10,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E220,Shankill,SKILL,13:40:50,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,45,0,14:24,14:25,14:25,14:25,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E221,Shankill,SKILL,13:40:50,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Clongriffin,61,1,14:40,14:41,14:40,14:40,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E107,Shankill,SKILL,13:40:50,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,72,0,14:52,14:52,14:52,14:52,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:50.867,E222,Shankill,SKILL,13:40:50,21 Nov 2026,Malahide,Bray,14:03,15:20,No Information,,90,0,15:10,15:10,15:10,15:10,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:51.67,A485,Craughwell,CRGHW,13:40:51,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,40,0,14:19,14:20,14:19,14:20,To Limerick,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E815,Woodbrook,WBROK,13:40:52,21 Nov 2026,Greystones,Malahide,13:30,14:56,En Route,Arrived Bray,3,-1,13:42,13:43,13:43,13:44,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E754,Woodbrook,WBROK,13:40:52,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,Departed Greystones,11,0,13:51,13:51,13:50,13:51,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E915,Woodbrook,WBROK,13:40:52,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,20,0,13:59,14:00,13:59,14:00,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E755,Woodbrook,WBROK,13:40:52,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,28,0,14:07,14:08,14:07,14:08,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E816,Woodbrook,WBROK,13:40:52,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,35,0,14:14,14:15,14:14,14:15,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E916,Woodbrook,WBROK,13:40:52,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,50,0,14:29,14:30,14:29,14:30,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E817,Woodbrook,WBROK,13:40:52,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,64,0,14:44,14:44,14:44,14:44,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E917,Woodbrook,WBROK,13:40:52,21 Nov 2026,Bray,Howth,14:57,16:12,No Information,,80,0,14:59,15:00,14:59,15:00,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E218,Woodbrook,WBROK,13:40:52,21 Nov 2026,Malahide,Bray,12:33,13:50,En Route,Departed Glenageary,12,9,13:52,13:52,13:43,13:43,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E106,Woodbrook,WBROK,13:40:52,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,17,2,13:57,13:57,13:55,13:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E219,Woodbrook,WBROK,13:40:52,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,33,0,14:12,14:13,14:13,14:13,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E220,Woodbrook,WBROK,13:40:52,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,48,0,14:27,14:28,14:28,14:28,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E221,Woodbrook,WBROK,13:40:52,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Clongriffin,64,1,14:43,14:44,14:43,14:43,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:40:52.48,E107,Woodbrook,WBROK,13:40:52,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,75,0,14:55,14:55,14:55,14:55,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E754,Bray,BRAY,13:41:10,21 Nov 2026,Greystones,Dublin Connolly,13:36,14:39,En Route,,6,0,13:46,13:47,13:46,13:47,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E915,Bray,BRAY,13:41:10,21 Nov 2026,Bray,Howth,13:57,15:12,No Information,,16,0,00:00,13:57,00:00,13:57,Northbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E755,Bray,BRAY,13:41:10,21 Nov 2026,Bray,Dublin Connolly,14:05,14:55,No Information,,24,0,00:00,14:05,00:00,14:05,Northbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E816,Bray,BRAY,13:41:10,21 Nov 2026,Bray,Malahide,14:12,15:27,No Information,,31,0,00:00,14:12,00:00,14:12,Northbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E916,Bray,BRAY,13:41:10,21 Nov 2026,Bray,Howth,14:27,15:42,No Information,,46,0,00:00,14:27,00:00,14:27,Northbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E817,Bray,BRAY,13:41:10,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,60,0,14:40,14:41,14:40,14:41,Northbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E917,Bray,BRAY,13:41:10,21 Nov 2026,Bray,Howth,14:57,16:12,No Information,,76,0,00:00,14:57,00:00,14:57,Northbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E218,Bray,BRAY,13:41:10,21 Nov 2026,Malahide,Bray,12:33,13:50,En Route,Departed Glenageary,18,9,13:59,00:00,13:50,00:00,Southbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E106,Bray,BRAY,13:41:10,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,22,2,14:02,14:03,14:00,14:01,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E219,Bray,BRAY,13:41:10,21 Nov 2026,Malahide,Bray,13:03,14:20,En Route,Arrived Lansdowne Road,39,0,14:20,00:00,14:20,00:00,Southbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E220,Bray,BRAY,13:41:10,21 Nov 2026,Howth,Bray,13:19,14:35,En Route,Departed Clontarf Road,53,-1,14:34,00:00,14:35,00:00,Southbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,A606,Bray,BRAY,13:41:10,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,61,0,14:40,14:42,14:40,14:42,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E221,Bray,BRAY,13:41:10,21 Nov 2026,Malahide,Bray,13:33,14:50,En Route,Departed Clongriffin,69,0,14:50,00:00,14:50,00:00,Southbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:10.4,E107,Bray,BRAY,13:41:10,21 Nov 2026,Howth,Greystones,13:46,15:13,No Information,,80,0,15:00,15:01,15:00,15:01,Southbound,DART,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:11.21,P217,Newbridge,NBRGE,13:41:11,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Departed Portarlington,21,6,14:01,14:02,13:55,13:56,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:11.21,A517,Newbridge,NBRGE,13:41:11,21 Nov 2026,Waterford,Dublin Heuston,13:00,15:18,En Route,Arrived Kilkenny,73,0,14:52,14:54,14:52,14:54,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:11.21,P219,Newbridge,NBRGE,13:41:11,21 Nov 2026,Portlaoise,Dublin Heuston,14:28,15:39,No Information,,78,0,14:58,14:59,14:58,14:59,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:11.21,D212,Newbridge,NBRGE,13:41:11,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Departed Adamstown,21,1,14:01,14:02,14:00,14:01,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:11.21,D214,Newbridge,NBRGE,13:41:11,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,75,0,14:55,14:56,14:55,14:56,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:12.837,P217,Kildare,KDARE,13:41:12,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Departed Portarlington,15,7,13:55,13:56,13:48,13:49,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:12.837,A517,Kildare,KDARE,13:41:12,21 Nov 2026,Waterford,Dublin Heuston,13:00,15:18,En Route,Arrived Kilkenny,66,0,14:45,14:47,14:45,14:47,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:12.837,P219,Kildare,KDARE,13:41:12,21 Nov 2026,Portlaoise,Dublin Heuston,14:28,15:39,No Information,,71,0,14:51,14:52,14:51,14:52,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:12.837,D212,Kildare,KDARE,13:41:12,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Departed Adamstown,27,1,14:07,14:08,14:06,14:07,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:12.837,D214,Kildare,KDARE,13:41:12,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,81,0,15:01,15:02,15:01,15:02,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:13.657,A485,Ardrahan,ARHAN,13:41:13,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,47,0,14:28,14:28,14:28,14:28,To Limerick,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:14.453,P219,Portarlington,PTRTN,13:41:14,21 Nov 2026,Portlaoise,Dublin Heuston,14:28,15:39,No Information,,56,0,14:36,14:37,14:36,14:37,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:14.453,A717,Portarlington,PTRTN,13:41:14,21 Nov 2026,Galway,Dublin Heuston,13:05,15:48,No Information,,88,0,15:07,15:09,15:07,15:09,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:14.453,A714,Portarlington,PTRTN,13:41:14,21 Nov 2026,Dublin Heuston,Galway,13:30,15:50,En Route,Departed Kishoge,29,3,14:07,14:10,14:04,14:07,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:14.453,D212,Portarlington,PTRTN,13:41:14,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Departed Adamstown,40,1,14:20,14:21,14:19,14:20,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:15.267,P217,Monasterevin,MONVN,13:41:15,21 Nov 2026,Portlaoise,Dublin Heuston,13:25,14:37,En Route,Departed Portarlington,5,6,13:45,13:46,13:39,13:40,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:15.267,P219,Monasterevin,MONVN,13:41:15,21 Nov 2026,Portlaoise,Dublin Heuston,14:28,15:39,No Information,,62,0,14:42,14:43,14:42,14:43,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:15.267,D212,Monasterevin,MONVN,13:41:15,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Departed Adamstown,34,1,14:14,14:15,14:13,14:14,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:15.267,D214,Monasterevin,MONVN,13:41:15,21 Nov 2026,Dublin Heuston,Portlaoise,14:15,15:27,No Information,,88,0,15:08,15:09,15:08,15:09,To Portlaoise,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:33.27,E817,Greystones,GSTNS,13:41:33,21 Nov 2026,Greystones,Malahide,14:30,15:56,No Information,,49,0,00:00,14:30,00:00,14:30,Northbound,DART,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:33.27,E106,Greystones,GSTNS,13:41:33,21 Nov 2026,Howth,Greystones,12:46,14:13,En Route,Departed Dun Laoghaire,34,2,14:15,00:00,14:13,00:00,Southbound,DART,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:33.27,A606,Greystones,GSTNS,13:41:33,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,71,0,14:51,14:52,14:51,14:52,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:34.17,A606,Kilcoole,KCOOL,13:41:34,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,76,0,14:56,14:57,14:56,14:57,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.06,A485,Gort,GORT,13:41:35,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,56,0,14:37,14:37,14:37,14:37,To Limerick,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.967,A214,Portlaoise,PTLSE,13:41:35,21 Nov 2026,Dublin Heuston,Cork,13:00,15:33,En Route,Departed Portarlington,5,2,13:44,13:46,13:42,13:44,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.967,A216,Portlaoise,PTLSE,13:41:35,21 Nov 2026,Dublin Heuston,Cork,14:00,16:39,No Information,,65,0,14:44,14:46,14:44,14:46,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.967,A215,Portlaoise,PTLSE,13:41:35,21 Nov 2026,Cork,Dublin Heuston,12:25,14:59,En Route,Arrived Limerick Junction,35,4,14:14,14:16,14:10,14:12,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.967,P219,Portlaoise,PTLSE,13:41:35,21 Nov 2026,Portlaoise,Dublin Heuston,14:28,15:39,No Information,,47,0,00:00,14:28,00:00,14:28,To Dublin Heuston,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.967,A217,Portlaoise,PTLSE,13:41:35,21 Nov 2026,Cork,Dublin Heuston,13:25,15:59,No Information,,86,0,15:05,15:07,15:05,15:07,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:35.967,D212,Portlaoise,PTLSE,13:41:35,21 Nov 2026,Dublin Heuston,Portlaoise,13:20,14:32,En Route,Departed Adamstown,52,1,14:33,00:00,14:32,00:00,To Portlaoise,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:36.78,A517,Athy,ATHY,13:41:36,21 Nov 2026,Waterford,Dublin Heuston,13:00,15:18,En Route,Arrived Kilkenny,46,0,14:25,14:27,14:25,14:27,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:36.78,A514,Athy,ATHY,13:41:36,21 Nov 2026,Dublin Heuston,Waterford,13:15,15:31,En Route,Departed Newbridge,17,2,13:56,13:58,13:54,13:56,To Waterford,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:37.7,A613,Wicklow,WLOW,13:41:37,21 Nov 2026,Rosslare Europort,Dublin Connolly,13:15,16:20,No Information,,87,0,15:04,15:08,15:04,15:08,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:37.7,A606,Wicklow,WLOW,13:41:37,21 Nov 2026,Dublin Connolly,Rosslare Europort,13:55,16:56,No Information,,87,0,15:07,15:08,15:07,15:08,Southbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:57.337,A613,Rathdrum,RDRUM,13:41:57,21 Nov 2026,Rosslare Europort,Dublin Connolly,13:15,16:20,No Information,,71,0,14:51,14:52,14:51,14:52,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:58.147,A216,Ballybrophy,BBRHY,13:41:58,21 Nov 2026,Dublin Heuston,Cork,14:00,16:39,No Information,,80,0,14:59,15:01,14:59,15:01,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:59.86,A517,Carlow,CRLOW,13:41:59,21 Nov 2026,Waterford,Dublin Heuston,13:00,15:18,En Route,Arrived Kilkenny,34,0,14:11,14:15,14:11,14:15,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:41:59.86,A514,Carlow,CRLOW,13:41:59,21 Nov 2026,Dublin Heuston,Waterford,13:15,15:31,En Route,Departed Newbridge,35,3,14:11,14:16,14:08,14:13,To Waterford,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:00.677,A786,Ennis,ENNIS,13:42:00,21 Nov 2026,Limerick,Galway,14:20,16:16,No Information,,81,0,14:59,15:03,14:59,15:03,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:00.677,A485,Ennis,ENNIS,13:42:00,21 Nov 2026,Galway,Limerick,13:45,15:42,No Information,,80,0,15:00,15:02,15:00,15:02,To Limerick,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:18.583,A613,Arklow,ARKLW,13:42:18,21 Nov 2026,Rosslare Europort,Dublin Connolly,13:15,16:20,No Information,,53,0,14:34,14:35,14:34,14:35,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:19.4,A215,Templemore,TPMOR,13:42:19,21 Nov 2026,Cork,Dublin Heuston,12:25,14:59,En Route,Arrived Limerick Junction,12,4,13:52,13:54,13:48,13:50,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:22.633,A786,Sixmilebridge,SXMBR,13:42:22,21 Nov 2026,Limerick,Galway,14:20,16:16,No Information,,60,0,14:41,14:42,14:41,14:42,To Galway,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:41.46,A517,Muine Bheag,MNEBG,13:42:41,21 Nov 2026,Waterford,Dublin Heuston,13:00,15:18,En Route,Arrived Kilkenny,17,0,13:57,13:59,13:57,13:59,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:41.46,A514,Muine Bheag,MNEBG,13:42:41,21 Nov 2026,Dublin Heuston,Waterford,13:15,15:31,En Route,Departed Kildare,46,2,14:26,14:28,14:24,14:26,To Waterford,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:42.273,A214,Thurles,THRLS,13:42:42,21 Nov 2026,Dublin Heuston,Cork,13:00,15:33,En Route,Departed Portarlington,33,3,14:13,14:15,14:10,14:12,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:42.273,A217,Thurles,THRLS,13:42:42,21 Nov 2026,Cork,Dublin Heuston,13:25,15:59,No Information,,57,0,14:37,14:39,14:37,14:39,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.087,A613,Gorey,GOREY,13:42:43,21 Nov 2026,Rosslare Europort,Dublin Connolly,13:15,16:20,No Information,,40,0,14:21,14:22,14:21,14:22,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.9,A786,Limerick,LMRCK,13:42:43,21 Nov 2026,Limerick,Galway,14:20,16:16,No Information,,38,0,00:00,14:20,00:00,14:20,To Galway,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.9,A434,Limerick,LMRCK,13:42:43,21 Nov 2026,Limerick Junction,Limerick,13:37,14:04,No Information,,22,0,14:04,00:00,14:04,00:00,To Limerick,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.9,A475,Limerick,LMRCK,13:42:43,21 Nov 2026,Ennis,Limerick,13:25,14:05,No Information,,23,0,14:05,00:00,14:05,00:00,To Limerick,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.9,A436,Limerick,LMRCK,13:42:43,21 Nov 2026,Limerick Junction,Limerick,14:37,15:04,No Information,,82,0,15:04,00:00,15:04,00:00,To Limerick,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.9,A437,Limerick,LMRCK,13:42:43,21 Nov 2026,Limerick,Limerick Junction,13:50,14:19,No Information,,8,0,00:00,13:50,00:00,13:50,To Limerick Junction,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:43.9,A439,Limerick,LMRCK,13:42:43,21 Nov 2026,Limerick,Limerick Junction,14:55,15:23,No Information,,73,0,00:00,14:55,00:00,14:55,To Limerick Junction,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:44.807,A517,Kilkenny,KKNNY,13:42:44,21 Nov 2026,Waterford,Dublin Heuston,13:00,15:18,En Route,Arrived Kilkenny,0,0,13:39,13:42,13:37,13:42,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:44.807,A514,Kilkenny,KKNNY,13:42:44,21 Nov 2026,Dublin Heuston,Waterford,13:15,15:31,En Route,Departed Kildare,68,3,14:45,14:50,14:42,14:47,To Waterford,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:45.63,A514,Thomastown,THTWN,13:42:45,21 Nov 2026,Dublin Heuston,Waterford,13:15,15:31,En Route,Departed Kildare,80,3,15:01,15:02,14:58,14:59,To Waterford,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:42:46.44,A613,Enniscorthy,ECRTY,13:42:46,21 Nov 2026,Rosslare Europort,Dublin Connolly,13:15,16:20,No Information,,19,0,14:00,14:01,14:00,14:01,Northbound,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:04.277,A214,Limerick Junction,LMRKJ,13:43:04,21 Nov 2026,Dublin Heuston,Cork,13:00,15:33,En Route,Arrived Portlaoise,50,0,14:31,14:33,14:31,14:33,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:04.277,A217,Limerick Junction,LMRKJ,13:43:04,21 Nov 2026,Cork,Dublin Heuston,13:25,15:59,No Information,,38,0,14:18,14:21,14:18,14:21,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:04.277,A436,Limerick Junction,LMRKJ,13:43:04,21 Nov 2026,Limerick Junction,Limerick,14:37,15:04,No Information,,54,0,00:00,14:37,00:00,14:37,To Limerick,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:04.277,A437,Limerick Junction,LMRKJ,13:43:04,21 Nov 2026,Limerick,Limerick Junction,13:50,14:19,No Information,,36,0,14:19,00:00,14:19,00:00,To Limerick Junction,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:08.42,A219,Charleville,CVILL,13:43:08,21 Nov 2026,Cork,Dublin Heuston,14:25,16:55,No Information,,81,0,15:02,15:04,15:02,15:04,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:29.64,A311,Tralee,TRLEE,13:43:29,21 Nov 2026,Tralee,Mallow,15:05,16:37,No Information,,82,0,00:00,15:05,00:00,15:05,To Mallow,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:29.64,A306,Tralee,TRLEE,13:43:29,21 Nov 2026,Mallow,Tralee,13:25,14:58,En Route,Departed Mallow,77,2,15:00,00:00,14:58,00:00,To Tralee,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:31.273,A521,Waterford,WFORD,13:43:31,21 Nov 2026,Waterford,Dublin Heuston,14:50,17:10,No Information,,67,0,00:00,14:50,00:00,14:50,To Dublin Heuston,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:50.72,A306,Farranfore,FFORE,13:43:50,21 Nov 2026,Mallow,Tralee,13:25,14:58,En Route,Departed Mallow,61,2,14:43,14:44,14:41,14:42,To Tralee,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:51.517,A212,Mallow,MLLOW,13:43:51,21 Nov 2026,Dublin Heuston,Cork,12:00,14:33,En Route,Arrived Limerick Junction,27,6,14:08,14:10,14:02,14:04,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:51.517,A214,Mallow,MLLOW,13:43:51,21 Nov 2026,Dublin Heuston,Cork,13:00,15:33,En Route,Arrived Portlaoise,81,0,15:02,15:04,15:02,15:04,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:51.517,A217,Mallow,MLLOW,13:43:51,21 Nov 2026,Cork,Dublin Heuston,13:25,15:59,No Information,,4,0,13:45,13:47,13:45,13:47,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:51.517,A219,Mallow,MLLOW,13:43:51,21 Nov 2026,Cork,Dublin Heuston,14:25,16:55,No Information,,65,0,14:46,14:48,14:46,14:48,To Dublin Heuston,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:51.517,A309,Mallow,MLLOW,13:43:51,21 Nov 2026,Tralee,Mallow,13:05,14:37,No Information,,54,0,14:37,00:00,14:37,00:00,To Mallow,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:52.34,A309,Banteer,BTEER,13:43:52,21 Nov 2026,Tralee,Mallow,13:05,14:37,No Information,,38,0,14:20,14:21,14:20,14:21,To Mallow,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:53.153,A309,Rathmore,RMORE,13:43:53,21 Nov 2026,Tralee,Mallow,13:05,14:37,No Information,,19,0,14:00,14:02,14:00,14:02,To Mallow,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:53.153,A306,Rathmore,RMORE,13:43:53,21 Nov 2026,Mallow,Tralee,13:25,14:58,En Route,Departed Mallow,21,3,14:00,14:04,13:57,14:01,To Tralee,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:53.97,A309,Millstreet,MLSRT,13:43:53,21 Nov 2026,Tralee,Mallow,13:05,14:37,No Information,,28,0,14:10,14:11,14:10,14:11,To Mallow,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:53.97,A306,Millstreet,MLSRT,13:43:53,21 Nov 2026,Mallow,Tralee,13:25,14:58,En Route,Departed Mallow,8,2,13:50,13:51,13:48,13:49,To Tralee,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:43:54.893,A306,Killarney,KLRNY,13:43:54,21 Nov 2026,Mallow,Tralee,13:25,14:58,En Route,Departed Mallow,42,3,14:22,14:25,14:19,14:22,To Tralee,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:12.893,P565,Midleton,MDLTN,13:44:12,21 Nov 2026,Midleton,Cork,13:45,14:08,No Information,,1,0,00:00,13:45,00:00,13:45,To Cork,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:12.893,P567,Midleton,MDLTN,13:44:12,21 Nov 2026,Midleton,Cork,14:45,15:08,No Information,,61,0,00:00,14:45,00:00,14:45,To Cork,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:12.893,D567,Midleton,MDLTN,13:44:12,21 Nov 2026,Cork,Midleton,14:15,14:38,No Information,,54,0,14:38,00:00,14:38,00:00,To Midleton,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:13.707,P565,Carrigtwohill,CGTWL,13:44:13,21 Nov 2026,Midleton,Cork,13:45,14:08,No Information,,6,0,13:50,13:50,13:50,13:50,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:13.707,P567,Carrigtwohill,CGTWL,13:44:13,21 Nov 2026,Midleton,Cork,14:45,15:08,No Information,,66,0,14:50,14:50,14:50,14:50,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:13.707,D567,Carrigtwohill,CGTWL,13:44:13,21 Nov 2026,Cork,Midleton,14:15,14:38,No Information,,47,0,14:30,14:31,14:30,14:31,To Midleton,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,D522,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,27,0,14:10,14:11,14:10,14:11,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,D523,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,57,0,14:40,14:41,14:40,14:41,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,D524,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cork,Cobh,15:00,15:26,No Information,,87,0,15:10,15:11,15:10,15:11,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,P565,Glounthaune,GHANE,13:44:14,21 Nov 2026,Midleton,Cork,13:45,14:08,No Information,,11,0,13:55,13:55,13:55,13:55,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,P520,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,29,0,14:13,14:13,14:13,14:13,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,P521,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,59,0,14:43,14:43,14:43,14:43,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,P567,Glounthaune,GHANE,13:44:14,21 Nov 2026,Midleton,Cork,14:45,15:08,No Information,,71,0,14:55,14:55,14:55,14:55,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,P522,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cobh,Cork,15:00,15:25,No Information,,89,0,15:13,15:13,15:13,15:13,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:14.52,D567,Glounthaune,GHANE,13:44:14,21 Nov 2026,Cork,Midleton,14:15,14:38,No Information,,42,0,14:25,14:26,14:25,14:26,To Midleton,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,D522,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,23,0,14:07,14:07,14:07,14:07,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,D523,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,53,0,14:37,14:37,14:37,14:37,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,D524,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cork,Cobh,15:00,15:26,No Information,,83,0,15:07,15:07,15:07,15:07,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,P519,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cobh,Cork,13:30,13:55,No Information,,2,0,13:46,13:46,13:46,13:46,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,P565,LittleIsland,LSLND,13:44:15,21 Nov 2026,Midleton,Cork,13:45,14:08,No Information,,14,0,13:58,13:58,13:58,13:58,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,P520,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,32,0,14:16,14:16,14:16,14:16,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,P521,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,62,0,14:46,14:46,14:46,14:46,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,P567,LittleIsland,LSLND,13:44:15,21 Nov 2026,Midleton,Cork,14:45,15:08,No Information,,74,0,14:58,14:58,14:58,14:58,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:15.337,D567,LittleIsland,LSLND,13:44:15,21 Nov 2026,Cork,Midleton,14:15,14:38,No Information,,38,0,14:22,14:22,14:22,14:22,To Midleton,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,D522,Cork,CORK,13:44:16,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,16,0,00:00,14:00,00:00,14:00,To Cobh,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,D523,Cork,CORK,13:44:16,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,46,0,00:00,14:30,00:00,14:30,To Cobh,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,D524,Cork,CORK,13:44:16,21 Nov 2026,Cork,Cobh,15:00,15:26,No Information,,76,0,00:00,15:00,00:00,15:00,To Cobh,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,A210,Cork,CORK,13:44:16,21 Nov 2026,Dublin Heuston,Cork,11:00,13:41,En Route,Departed Killarney Junction,9,12,13:53,00:00,13:41,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,P519,Cork,CORK,13:44:16,21 Nov 2026,Cobh,Cork,13:30,13:55,No Information,,11,0,13:55,00:00,13:55,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,P565,Cork,CORK,13:44:16,21 Nov 2026,Midleton,Cork,13:45,14:08,No Information,,24,0,14:08,00:00,14:08,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,P520,Cork,CORK,13:44:16,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,41,0,14:25,00:00,14:25,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,A212,Cork,CORK,13:44:16,21 Nov 2026,Dublin Heuston,Cork,12:00,14:33,En Route,Arrived Limerick Junction,58,9,14:42,00:00,14:33,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,P521,Cork,CORK,13:44:16,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,71,0,14:55,00:00,14:55,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,P567,Cork,CORK,13:44:16,21 Nov 2026,Midleton,Cork,14:45,15:08,No Information,,84,0,15:08,00:00,15:08,00:00,To Cork,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,A219,Cork,CORK,13:44:16,21 Nov 2026,Cork,Dublin Heuston,14:25,16:55,No Information,,41,0,00:00,14:25,00:00,14:25,To Dublin Heuston,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.163,D567,Cork,CORK,13:44:16,21 Nov 2026,Cork,Midleton,14:15,14:38,No Information,,31,0,00:00,14:15,00:00,14:15,To Midleton,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.977,D521,Fota,FOTA,13:44:16,21 Nov 2026,Cork,Cobh,13:30,13:56,No Information,,1,0,13:45,13:45,13:45,13:45,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.977,D522,Fota,FOTA,13:44:16,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,31,0,14:15,14:15,14:15,14:15,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.977,D523,Fota,FOTA,13:44:16,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,61,0,14:45,14:45,14:45,14:45,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.977,P520,Fota,FOTA,13:44:16,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,26,0,14:10,14:10,14:10,14:10,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.977,P521,Fota,FOTA,13:44:16,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,56,0,14:40,14:40,14:40,14:40,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:16.977,P522,Fota,FOTA,13:44:16,21 Nov 2026,Cobh,Cork,15:00,15:25,No Information,,86,0,15:10,15:10,15:10,15:10,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:17.79,D521,Carrigaloe,CGLOE,13:44:17,21 Nov 2026,Cork,Cobh,13:30,13:56,No Information,,5,0,13:48,13:49,13:48,13:49,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:17.79,D522,Carrigaloe,CGLOE,13:44:17,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,35,0,14:18,14:19,14:18,14:19,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:17.79,D523,Carrigaloe,CGLOE,13:44:17,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,65,0,14:48,14:49,14:48,14:49,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:17.79,P520,Carrigaloe,CGLOE,13:44:17,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,21,0,14:05,14:05,14:05,14:05,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:17.79,P521,Carrigaloe,CGLOE,13:44:17,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,51,0,14:35,14:35,14:35,14:35,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:17.79,P522,Carrigaloe,CGLOE,13:44:17,21 Nov 2026,Cobh,Cork,15:00,15:25,No Information,,81,0,15:05,15:05,15:05,15:05,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:35.62,D521,Rushbrooke,RBROK,13:44:35,21 Nov 2026,Cork,Cobh,13:30,13:56,No Information,,8,0,13:52,13:52,13:52,13:52,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:35.62,D522,Rushbrooke,RBROK,13:44:35,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,38,0,14:22,14:22,14:22,14:22,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:35.62,D523,Rushbrooke,RBROK,13:44:35,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,68,0,14:52,14:52,14:52,14:52,To Cobh,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:35.62,P520,Rushbrooke,RBROK,13:44:35,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,19,0,14:02,14:03,14:02,14:03,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:35.62,P521,Rushbrooke,RBROK,13:44:35,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,49,0,14:32,14:33,14:32,14:33,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:35.62,P522,Rushbrooke,RBROK,13:44:35,21 Nov 2026,Cobh,Cork,15:00,15:25,No Information,,79,0,15:02,15:03,15:02,15:03,To Cork,Train,S,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:36.43,D521,Cobh,COBH,13:44:36,21 Nov 2026,Cork,Cobh,13:30,13:56,No Information,,12,0,13:56,00:00,13:56,00:00,To Cobh,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:36.43,D522,Cobh,COBH,13:44:36,21 Nov 2026,Cork,Cobh,14:00,14:26,No Information,,42,0,14:26,00:00,14:26,00:00,To Cobh,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:36.43,D523,Cobh,COBH,13:44:36,21 Nov 2026,Cork,Cobh,14:30,14:56,No Information,,72,0,14:56,00:00,14:56,00:00,To Cobh,Train,D,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:36.43,P520,Cobh,COBH,13:44:36,21 Nov 2026,Cobh,Cork,14:00,14:25,No Information,,16,0,00:00,14:00,00:00,14:00,To Cork,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:36.43,P521,Cobh,COBH,13:44:36,21 Nov 2026,Cobh,Cork,14:30,14:55,No Information,,46,0,00:00,14:30,00:00,14:30,To Cork,Train,O,2026-11-21T13:35:47+00:00
+2026-11-21T13:44:36.43,P522,Cobh,COBH,13:44:36,21 Nov 2026,Cobh,Cork,15:00,15:25,No Information,,76,0,00:00,15:00,00:00,15:00,To Cork,Train,O,2026-11-21T13:35:47+00:00
