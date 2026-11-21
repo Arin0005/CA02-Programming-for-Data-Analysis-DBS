@@ -1,0 +1,6 @@
+RunUTC,Source,Item,Error
+2026-11-21T03:17:40+00:00,stations,getAllStationsXML,"HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/realtime.asmx/getAllStationsXML (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.irishrail.ie', port=443) at 0x77b7d5c67110>, 'Connection to api.irishrail.ie timed out. (connect timeout=30)'))"
+2026-11-21T03:17:40+00:00,open_meteo,"WLAWN,GCDK,CLARA,BSLOE,ADAMS,ADAMF,ADMTN,LDWNE,KISHO,KISHF","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+2026-11-21T03:17:40+00:00,open_meteo,"KISHS,PWESF,PWESS,CHORC,CLDKN,CLONS,CLONF,SMONT,HZLCH,HAZEF","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+2026-11-21T03:17:40+00:00,open_meteo,"RMORE,MLSRT,KLRNY,MDLTN,CGTWL,GHANE,LSLND,CORK,FOTA,CGLOE","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+2026-11-21T03:17:40+00:00,open_meteo,"RBROK,COBH","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
