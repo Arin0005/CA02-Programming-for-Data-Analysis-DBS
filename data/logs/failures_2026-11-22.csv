@@ -1,0 +1,5 @@
+RunUTC,Source,Item,Error
+2026-11-22T01:26:31+00:00,open_meteo,"WLAWN,GCDK,CLARA,BSLOE,ADAMS,ADAMF,ADMTN,LDWNE,KISHO,KISHF","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+2026-11-22T01:26:31+00:00,open_meteo,"KISHS,PWESF,PWESS,CHORC,CLDKN,CLONS,CLONF,SMONT,HZLCH,HAZEF","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+2026-11-22T01:26:31+00:00,open_meteo,"THTWN,ECRTY,LMRKJ,TIPRY,CAHIR,CLMEL,CKOSR,CVILL,WXFRD,CPILE","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
+2026-11-22T01:26:31+00:00,open_meteo,"BCLAN,RLSTD,TRLEE,WBDGE,WFORD,RLEPT,BRGTN,FFORE,MLLOW,BTEER","HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)"
