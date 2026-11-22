@@ -1,23 +1,42 @@
-name: Collect data
+# RailPredict (Dublin) - live board collection every 10 minutes.
+#
+# HOW IT WORKS
+#  * One job stays alive for up to ~5h40m and polls Heuston + Connolly every
+#    10 minutes (scripts/poll_loop.py), saving to GitHub every 30 minutes.
+#  * Near GitHub's 6-hour limit it starts the NEXT run itself (last step), so
+#    collection carries on without depending on GitHub's cron timer, which
+#    skipped most of your v1 runs.
+#  * The cron lines below are only a SAFETY NET. If the chain ever breaks,
+#    the next cron restarts it. If a loop is already running, the new run
+#    waits in the queue (see "concurrency") instead of running twice.
+#
+# !! This file must be at the TOP of the repo:  .github/workflows/
+# !! If you name the project folder something other than "railpredict_dublin",
+#    change it in the 3 places marked FOLDER.
+
+name: Collect
 
 on:
   schedule:
-    # Off-peak minute (:23) avoids GitHub's top-of-hour queue delays and dropped runs.
-    # Runs 05:23 to 23:23 UTC (matches Europe/Dublin GMT until March 28, 2027).
-    - cron: "23 5-23 * * *"
-  workflow_dispatch:
+    - cron: "50 4 * * *" # start of the service day (04:50 UTC)
+    - cron: "17 7,10,13,16,19,22 * * *" # safety net every 3 hours
+  workflow_dispatch: # "Run workflow" button for testing
 
 permissions:
-  contents: write
+  contents: write # lets the job save data to the repo
+  actions: write # lets the job start its own next run
 
 concurrency:
-  group: data-pipeline
+  group: railpredict-collect
   cancel-in-progress: false
 
 jobs:
-  collect:
+  loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 355
+    defaults:
+      run:
+        working-directory: railpredict_dublin # FOLDER (1 of 3)
     steps:
       - name: Get the repo
         uses: actions/checkout@v4
@@ -27,35 +46,25 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: railpredict_dublin/requirements.txt # FOLDER (2 of 3)
 
       - name: Install packages
         run: pip install -r requirements.txt
 
-      - name: Set run time
-        run: echo "RUN_UTC=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)" >> "$GITHUB_ENV"
-
-      - name: Collect Irish Rail trains
-        if: always()
-        run: python scripts/collect_trains.py
-
-      - name: Collect Open-Meteo weather
-        if: always()
-        run: python scripts/collect_openmeteo.py
-
-      - name: Collect Met Eireann observations
-        if: always()
-        run: python scripts/collect_met_eireann.py
-
-      - name: Commit data
-        if: always()
+      - name: Set up git name for the saves
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          if git diff --cached --quiet; then
-            echo "Nothing new to commit."
-          else
-            git commit -m "Data $RUN_UTC"
-            git pull --rebase -X ours || true
-            git push
-          fi
+
+      - name: Poll every 10 minutes
+        id: loop
+        run: python scripts/poll_loop.py
+
+      # Only runs when poll_loop.py says "I hit the time limit, carry on".
+      # It does NOT run at the end of the day (00:45 UTC), so nothing runs all night.
+      - name: Start the next run
+        if: steps.loop.outputs.next == 'true'
+        working-directory: .
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run railpredict_collect.yml --ref ${{ github.ref_name }}

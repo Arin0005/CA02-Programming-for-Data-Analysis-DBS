@@ -1,2 +1,0 @@
-Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Destination,Origintime,Destinationtime,Status,Lastlocation,Duein,Late,Exparrival,Expdepart,Scharrival,Schdepart,Direction,Traintype,Locationtype,CollectedAtUTC
-2026-11-19T03:41:22.303,A861,Ballina,BALNA,03:41:22,19 Nov 2026,Ballina,Manulla Junction,05:05,05:32,No Information,,84,0,00:00,05:05,00:00,05:05,To Manulla Junction,Train,O,2026-11-19T03:41:18+00:00

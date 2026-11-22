@@ -1,26 +1,3 @@
-Station,Latitude,Longitude,Note
-Athenry,53.289136,-8.785543,
-Ballyhaise,54.053106,-7.313924,
-Belmullet,54.227524,-10.006817,
-Casement,53.305314,-6.441191,
-Claremorris,53.710646,-8.992343,
-Cork,51.848130,-8.479649,Cork Airport
-Dublin,53.421522,-6.297867,Dublin Airport
-Dunsany,53.516082,-6.660575,
-Finner,54.493887,-8.242865,
-Gurteen,53.036297,-8.008522,
-Johnstown Castle,52.297632,-6.496774,
-Knock,53.912811,-8.810569,Knock Airport
-Mace Head,53.325745,-9.900745,Corrected point for the met station (forum thread comment)
-Malin Head,55.371969,-7.339275,
-Markree Castle,54.178403,-8.462420,
-Moore Park,52.160000,-8.270000,APPROXIMATE - no published source found - please check
-Mt Dillon,53.726989,-7.980986,Mount Dillon
-Mullingar,53.537184,-7.361872,
-Newport Mayo,53.923623,-9.572674,Newport
-Oak Park,52.861242,-6.914991,
-Phoenix Park,53.363653,-6.349598,
-Roche's Point,51.798242,-8.250207,
-Shannon,52.695279,-8.929433,Shannon Airport
-Sherkin Island,51.476803,-9.428732,
-Valentia,51.938301,-10.241029,
+MetSlug,Station,Latitude,Longitude
+phoenix-park,Phoenix Park,53.363653,-6.349598
+dublin,Dublin Airport,53.421522,-6.297867

@@ -1,0 +1,45 @@
+MetSlug,name,temperature,symbol,weatherDescription,text,windSpeed,windGust,cardinalWindDirection,windDirection,humidity,rainfall,pressure,dayName,date,reportTime,CollectedAtUTC
+phoenix-park,Phoenix Park,8,,N/A,,NA,-,-99,0, 90 , 0.2 ,1017,Sunday,22-11-2026,21:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,8,,N/A,,NA,-,-99,0, 88 , 0.1 ,1016,Sunday,22-11-2026,20:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,8,,N/A,,NA,-,-99,0, 88 , 0.7 ,1016,Sunday,22-11-2026,19:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,9,,N/A,,NA,-,-99,0, 80 , 0.0 ,1014,Sunday,22-11-2026,18:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,9,,N/A,,NA,-,-99,0, 76 , 0.0 ,1013,Sunday,22-11-2026,17:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,9,,N/A,,NA,-,-99,0, 77 , 0.0 ,1013,Sunday,22-11-2026,16:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,9,,N/A,,NA,-,-99,0, 75 , 0.0 ,1011,Sunday,22-11-2026,15:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,9,,N/A,,NA,-,-99,0, 72 , 0.0 ,1011,Sunday,22-11-2026,14:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 68 , 0.0 ,1010,Sunday,22-11-2026,13:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 69 , 0.0 ,1009,Sunday,22-11-2026,12:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,9,,N/A,,NA,-,-99,0, 68 , 0.0 ,1009,Sunday,22-11-2026,11:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 67 , 0.0 ,1008,Sunday,22-11-2026,10:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 67 , 0.0 ,1007,Sunday,22-11-2026,09:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 67 , 0.0 ,1007,Sunday,22-11-2026,08:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 70 , 0.0 ,1006,Sunday,22-11-2026,07:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 75 , 0.0 ,1006,Sunday,22-11-2026,06:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 75 , 0.0 ,1006,Sunday,22-11-2026,05:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 76 , 0.0 ,1006,Sunday,22-11-2026,04:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 79 , 0.0 ,1006,Sunday,22-11-2026,03:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 77 , 0.0 ,1006,Sunday,22-11-2026,02:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 78 , 0.0 ,1006,Sunday,22-11-2026,01:00,2026-11-22T21:47:14+00:00
+phoenix-park,Phoenix Park,10,,N/A,,NA,-,-99,0, 74 , 0.0 ,1007,Sunday,22-11-2026,00:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,8,46n,Light rain ,"""Light rain """,17,-,SE,135, 86 , 0.1 ,1016,Sunday,22-11-2026,21:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,8,46n,Light rain ,"""Rain/Drizzle """,17,-,S,180, 90 , 0.9 ,1016,Sunday,22-11-2026,20:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,8,04n,Cloudy,"""Cloudy""",17,39,S,180, 85 , 0.0 ,1015,Sunday,22-11-2026,19:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,8,04n,Cloudy,"""Cloudy""",26,-,S,180, 78 , 0.0 ,1014,Sunday,22-11-2026,18:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,46n,Light rain ,"""Recent Drizzle """,17,37,SE,135, 75 , 0.01 ,1013,Sunday,22-11-2026,17:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,46d,Light rain ,"""Light Drizzle """,19,-,SE,135, 77 , 0.01 ,1012,Sunday,22-11-2026,16:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,46d,Light rain ,"""Light Drizzle """,19,41,SE,135, 77 , 0.01 ,1011,Sunday,22-11-2026,15:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",20,43,SE,135, 73 , 0.0 ,1010,Sunday,22-11-2026,14:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",24,43,SE,135, 67 , 0.0 ,1009,Sunday,22-11-2026,13:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",24,-,SE,135, 66 , 0.0 ,1009,Sunday,22-11-2026,12:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",22,41,SE,135, 65 , 0.0 ,1009,Sunday,22-11-2026,11:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",24,48,SE,135, 66 , 0.0 ,1008,Sunday,22-11-2026,10:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",24,46,SE,135, 66 , 0.0 ,1007,Sunday,22-11-2026,09:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04d,Cloudy,"""Cloudy""",28,-,E,90, 69 , 0.0 ,1007,Sunday,22-11-2026,08:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04n,Cloudy,"""Cloudy""",24,-,SE,135, 72 , 0.0 ,1006,Sunday,22-11-2026,07:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,10,04n,Cloudy,"""Cloudy""",22,44,SE,135, 76 , 0.0 ,1006,Sunday,22-11-2026,06:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04n,Cloudy,"""Cloudy""",24,-,SE,135, 77 , 0.0 ,1006,Sunday,22-11-2026,05:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04n,Cloudy,"""Cloudy""",26,-,SE,135, 79 , 0.0 ,1006,Sunday,22-11-2026,04:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04n,Cloudy,"""Cloudy""",26,46,E,90, 80 , 0.0 ,1006,Sunday,22-11-2026,03:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,9,04n,Cloudy,"""Cloudy""",28,46,E,90, 77 , 0.0 ,1006,Sunday,22-11-2026,02:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,10,04n,Cloudy,"""Cloudy""",24,46,SE,135, 76 , 0.0 ,1006,Sunday,22-11-2026,01:00,2026-11-22T21:47:14+00:00
+dublin,Dublin Airport,10,04n,Cloudy,"""Cloudy""",22,46,E,90, 70 , 0.0 ,1007,Sunday,22-11-2026,00:00,2026-11-22T21:47:14+00:00
