@@ -17,6 +17,9 @@
 name: Collect
 
 on:
+  push:
+    branches:
+      - new-main
   schedule:
     - cron: "50 4 * * *" # start of the service day (04:50 UTC)
     - cron: "17 7,10,13,16,19,22 * * *" # safety net every 3 hours
@@ -58,7 +61,7 @@ jobs:
 
       - name: Poll every 10 minutes
         id: loop
-        run: python scripts/poll_loop.py
+        run: python scripts/collect_boards.py
 
       # Only runs when poll_loop.py says "I hit the time limit, carry on".
       # It does NOT run at the end of the day (00:45 UTC), so nothing runs all night.
