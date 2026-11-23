@@ -14,60 +14,66 @@
 # !! If you name the project folder something other than "railpredict_dublin",
 #    change it in the 3 places marked FOLDER.
 
-name: Collect
+
+name: Collect Dublin Trains
 
 on:
-  push:
-    branches:
-      - new-main
   schedule:
-    - cron: "50 4 * * *" # start of the service day (04:50 UTC)
-    - cron: "17 7,10,13,16,19,22 * * *" # safety net every 3 hours
-  workflow_dispatch: # "Run workflow" button for testing
+    - cron: "7,17,27,37,47,57 * * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write # lets the job save data to the repo
-  actions: write # lets the job start its own next run
+  contents: write
 
 concurrency:
-  group: railpredict-collect
+  group: railpredict-dublin
   cancel-in-progress: false
 
 jobs:
-  loop:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
-    defaults:
-      run:
-        working-directory: railpredict_dublin # FOLDER (1 of 3)
+    timeout-minutes: 10
+
     steps:
-      - name: Get the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: railpredict_dublin/requirements.txt # FOLDER (2 of 3)
 
-      - name: Install packages
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Set up git name for the saves
+      - name: Check Irish time
+        id: time
+        run: |
+          hour=$(TZ=Europe/Dublin date +%-H)
+          if [ "$hour" -ge 5 ]; then
+            echo "collect=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "collect=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Collect train data
+        if: steps.time.outputs.collect == 'true'
+        run: python scripts/collect_boards.py
+
+      - name: Save data to GitHub
+        if: steps.time.outputs.collect == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Poll every 10 minutes
-        id: loop
-        run: python scripts/collect_boards.py
+          git add data/
 
-      # Only runs when poll_loop.py says "I hit the time limit, carry on".
-      # It does NOT run at the end of the day (00:45 UTC), so nothing runs all night.
-      - name: Start the next run
-        if: steps.loop.outputs.next == 'true'
-        working-directory: .
-        env:
-          GH_TOKEN: ${{ github.token }}
+          if git diff --cached --quiet; then
+            echo "No new data."
+          else
+            git commit -m "Collect Dublin train data"
+            git pull --rebase
+            git push
+          fi
+ }}
         run: gh workflow run railpredict_collect.yml --ref ${{ github.ref_name }}
