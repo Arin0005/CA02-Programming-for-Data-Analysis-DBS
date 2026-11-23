@@ -1,0 +1,105 @@
+# RailPredict (Dublin) - once a day, at 03:30 UTC (no trains are running then).
+# For YESTERDAY it:
+#   1. fetches the actual train journeys      (collect_movements.py)
+#   2. fetches the day's weather              (collect_weather.py)
+#   3. removes genuine repeats                (clean_data.py)
+#   4. joins everything                       (merge_data.py)
+#   5. writes the check report                (inspect_data.py --save)
+# and saves the results. Raw files are never changed.
+#
+# !! Must be at the TOP of the repo:  .github/workflows/
+# !! FOLDER = the project folder name (3 places in total, 1 here).
+
+name: Daily report
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Day to process, like 2026-11-20 (empty = yesterday)"
+        required: false
+
+permissions:
+  contents: write
+
+# A different group from the 10-minute loop, so a long loop never blocks this.
+concurrency:
+  group: railpredict-daily
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Work out the day
+        env:
+          INPUT_DAY: ${{ github.event.inputs.day }}
+        run: |
+          if [ -n "$INPUT_DAY" ]; then
+            echo "DAY=$INPUT_DAY" >> "$GITHUB_ENV"
+          else
+            echo "DAY=$(date -u -d yesterday +%Y-%m-%d)" >> "$GITHUB_ENV"
+          fi
+
+      # "if: always()" = each step still runs if an earlier one failed, so one
+      # bad source never stops the rest. The run still shows red if any failed.
+      - name: Actual train journeys
+        run: python scripts/collect_movements.py "$DAY"
+
+      - name: Weather
+        if: always()
+        run: python scripts/collect_weather.py "$DAY"
+
+      - name: Clean
+        if: always()
+        run: python scripts/clean_data.py "$DAY"
+
+      - name: Merge
+        if: always()
+        run: python scripts/merge_data.py "$DAY"
+
+      # NEW: a train due just after midnight is merged with the weather of the
+      # NEXT day, which does not exist yet when the day is first merged.
+      # Merging the day before again fills those gaps in.
+      - name: Merge the day before again
+        if: always()
+        run: python scripts/merge_data.py "$(date -u -d "$DAY -1 day" +%Y-%m-%d)"
+
+      - name: Check report
+        if: always()
+        run: python scripts/inspect_data.py "$DAY" --save
+
+      - name: Save to the repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Daily processing for $DAY"
+            ok=0
+            for i in 1 2 3 4; do
+              if git pull --rebase && git push; then ok=1; break; fi
+              git rebase --abort 2>/dev/null || true
+              sleep 5
+            done
+            [ "$ok" = 1 ]      # fail the step (red) if it could not be saved
+          fi

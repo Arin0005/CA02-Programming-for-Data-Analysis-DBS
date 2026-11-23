@@ -1,28 +1,28 @@
 """
-inspect_data.py - NEW. A read-only health check of one day's collected data.
+inspect_data.py - read-only health check of one day. Changes nothing.
 
-It changes nothing. It prints (and with --save also writes to
-data/reports/summary_<day>.txt):
-  * how many rows / runs each source has for the day
-  * failed calls, grouped by source and error
-  * missing values per column (blank, or "-" for Met Eireann)
-  * duplicates in the raw trains
-  * stations that never had a train that day
-  * a few sample rows
+Prints (and with --save also writes data/reports/summary_<day>.txt):
+  * how many polls ran, and any gaps longer than 15 minutes
+  * board rows, trains seen, status mix
+  * movements: how many trains have actual times, and how many are
+    "automatic" (Irish Rail's flag for times that were not really measured)
+  * weather rows and the columns found
+  * failed calls
+  * merged row counts
+  * a first look at accuracy: how far Irish Rail's prediction and the plain
+    timetable are from the actual time
 
-Usage:
-  python scripts/inspect_data.py                  (today, UTC)
-  python scripts/inspect_data.py 2026-11-15       (a chosen day)
-  python scripts/inspect_data.py 2026-11-15 --save
+Usage:  python scripts/inspect_data.py 2026-11-20 [--save]   (default: yesterday)
 """
 
 import sys
 
 import pandas as pd
 
-from common import RAW, CLEAN, MERGED, LOGS, REPORTS, STATIONS_FILE, day_from_args
+from common import (RAW, CLEAN, MERGED, LOGS, REPORTS, TRAIN_IDS_FILE,
+                    day_from_args, read_text_csv)
 
-lines = []   # everything we print is also kept here for --save
+lines = []
 
 
 def say(text=""):
@@ -31,61 +31,103 @@ def say(text=""):
 
 
 def load(path):
-    if path.exists():
-        return pd.read_csv(path, dtype=str, keep_default_na=False)
-    return None
+    return read_text_csv(path) if path.exists() else None
 
 
-def missing_report(df, name):
-    """Count empty values and Met Eireann's '-' placeholders per column."""
-    say(f"  Missing values in {name} (blank or '-'):")
-    for col in df.columns:
-        n = int(df[col].isin(["", "-"]).sum())
-        if n:
-            say(f"    {col}: {n} of {len(df)}")
+def to_minutes(series):
+    """'14:36' -> 876 (minutes since midnight). Blank/odd -> NaN."""
+    s = series.fillna("").str[:5]
+    return pd.to_numeric(s.str[:2], errors="coerce") * 60 + pd.to_numeric(s.str[3:5], errors="coerce")
+
+
+def wrap(diff):
+    """Keep a time difference within +-12 hours so a midnight crossing does not give 1,400 minutes."""
+    return ((diff + 720) % 1440) - 720
+
+
+def accuracy(m):
+    if "Mov_Arrival" not in m.columns:
+        say("  no actual times yet.")
+        return
+    is_dest = m["Locationtype"] == "D"
+    predicted = to_minutes(m["Exparrival"].where(is_dest, m["Expdepart"]))
+    scheduled = to_minutes(m["Scharrival"].where(is_dest, m["Schdepart"]))
+    actual_text = m["Mov_Arrival"].where(is_dest, m["Mov_Departure"]).fillna("")
+    actual = to_minutes(actual_text)
+    # "" and "00:00" mean "no actual time recorded" (assumption - check on real data)
+    actual[actual_text.isin(["", "00:00"])] = float("nan")
+
+    d = pd.DataFrame({
+        "pred_err": wrap(predicted - actual).abs(),
+        "sched_err": wrap(scheduled - actual).abs(),
+        "ahead": pd.to_numeric(m["Duein"], errors="coerce"),
+        "live": m["Status"].ne("No Information"),
+    }).dropna(subset=["pred_err", "sched_err", "ahead"])
+    if d.empty:
+        say("  no rows with both a prediction and an actual time yet.")
+        return
+    say(f"  rows compared: {len(d)}")
+    say("  typical (median) error in minutes, prediction vs timetable:")
+    bins = pd.cut(d["ahead"], [-1, 10, 30, 60, 1000], labels=["0-10 min", "10-30", "30-60", "60+"])
+    for label, part in d.groupby(bins, observed=True):
+        say(f"    {label:>9} before: prediction {part['pred_err'].median():.1f} | "
+            f"timetable {part['sched_err'].median():.1f}   (n={len(part)})")
+    live = d[d["live"]]
+    say(f"  only rows where Irish Rail had live info: prediction {live['pred_err'].median():.1f} | "
+        f"timetable {live['sched_err'].median():.1f}   (n={len(live)})")
 
 
 def main():
-    day = day_from_args()
+    day = day_from_args(sys.argv, default="yesterday")
     say(f"===== Data check for {day} (UTC) =====")
 
-    # ---- Trains
-    trains = load(RAW / "trains" / f"trains_{day}.csv")
-    say("\n[Trains - raw]")
-    if trains is None:
+    # ---- Boards
+    boards = load(RAW / "trains" / f"trains_{day}.csv")
+    say("\n[Boards - raw]")
+    if boards is None:
         say("  no file")
     else:
-        say(f"  rows: {len(trains)} | runs (hours collected): {trains['CollectedAtUTC'].nunique()}")
-        say(f"  first run: {trains['CollectedAtUTC'].min()} | last run: {trains['CollectedAtUTC'].max()}")
-        keys = ["Traincode", "Traindate", "Stationcode", "CollectedAtUTC"]
-        dupes = trains.duplicated(subset=keys).sum()
-        say(f"  repeated rows within the same collection run: {dupes}")
-        missing_report(trains, "trains")
+        runs = sorted(pd.to_datetime(boards["CollectedAtUTC"].str[:19]).unique())
+        say(f"  rows: {len(boards)} | polls with trains: {len(runs)} (about 114 expected for a full day)")
+        gaps = [(runs[i - 1], runs[i]) for i in range(1, len(runs))
+                if (runs[i] - runs[i - 1]) > pd.Timedelta(minutes=15)]
+        say(f"  gaps over 15 minutes between polls: {len(gaps)}")
+        for a, b in gaps[:8]:
+            say(f"    {str(a)[11:16]} -> {str(b)[11:16]}")
+        say(f"  trains seen: {boards.drop_duplicates(['Traincode', 'Traindate']).shape[0]}")
+        say("  by station and type (O = starts here, D = ends here): "
+            + str(boards.groupby(["Stationcode", "Locationtype"]).size().to_dict()))
+        say("  status mix: " + str(boards["Status"].value_counts().to_dict()))
+        say("  NOTE: 'No Information' rows have Late = 0 as a placeholder, not 'on time'.")
 
-        stations = load(STATIONS_FILE)
-        if stations is not None:
-            never = sorted(set(stations["StationCode"]) - set(trains["Stationcode"]))
-            say(f"  stations with no trains all day: {len(never)} of {len(stations)}")
-            if never:
-                say("    " + ", ".join(never))
+    ids = load(TRAIN_IDS_FILE)
+    say(f"\n[Known train codes] {len(ids) if ids is not None else 'no file'}")
 
-    # ---- Open-Meteo
+    # ---- Movements
+    mov = load(RAW / "movements" / f"movements_{day}.csv")
+    say("\n[Movements - raw]")
+    if mov is None:
+        say("  no file")
+    else:
+        trains = mov.drop_duplicates(["TrainCode", "TrainDate"]).shape[0]
+        say(f"  stop rows: {len(mov)} | trains: {trains}")
+        dest = mov[mov["LocationType"] == "D"]
+        have = (~dest["Arrival"].isin(["", "00:00"])).sum() if "Arrival" in dest else 0
+        say(f"  trains with an actual arrival at their destination: {int(have)} of {len(dest)}")
+        for col in ("AutoArrival", "AutoDepart"):
+            if col in mov.columns:
+                say(f"  {col}: {mov[col].value_counts().to_dict()}")
+
+    # ---- Weather
     om = load(RAW / "openmeteo" / f"openmeteo_{day}.csv")
-    say("\n[Open-Meteo - raw]")
-    if om is None:
-        say("  no file")
-    else:
-        say(f"  rows: {len(om)} | runs: {om['CollectedAtUTC'].nunique()} | stations: {om['StationCode'].nunique()}")
-        missing_report(om, "open-meteo")
-
-    # ---- Met Eireann
     met = load(RAW / "met_eireann" / f"met_eireann_{day}.csv")
-    say("\n[Met Eireann - raw]")
+    say("\n[Weather]")
+    say(f"  Open-Meteo rows: {len(om) if om is not None else 'no file'} (48 expected = 2 stations x 24 h)")
     if met is None:
-        say("  no file")
+        say("  Met Eireann: no file")
     else:
-        say(f"  rows: {len(met)} | runs: {met['CollectedAtUTC'].nunique()} | stations: {met['Station'].nunique()}")
-        missing_report(met, "met eireann")
+        say(f"  Met Eireann rows: {len(met)} | per station: {met['MetSlug'].value_counts().to_dict()}")
+        say(f"  Met Eireann columns: {list(met.columns)}")
 
     # ---- Failures
     fails = load(LOGS / f"failures_{day}.csv")
@@ -94,18 +136,21 @@ def main():
         say("  none logged")
     else:
         say(f"  total: {len(fails)}")
-        for (source, error), n in fails.groupby(["Source", "Error"]).size().sort_values(ascending=False).head(10).items():
+        for (source, error), n in fails.groupby(["Source", "Error"]).size().sort_values(ascending=False).head(8).items():
             say(f"    {n} x {source}: {error[:100]}")
 
-    # ---- Clean and merged
-    clean = load(CLEAN / f"trains_clean_{day}.csv")
+    # ---- Merged
     merged = load(MERGED / f"merged_{day}.csv")
-    say("\n[Clean and merged]")
-    say(f"  clean rows: {len(clean) if clean is not None else 'no file'}")
-    say(f"  merged rows: {len(merged) if merged is not None else 'no file'}")
-    if merged is not None:
-        say("  sample merged rows:")
-        say(merged.head(5).to_string(index=False)[:2500])
+    say("\n[Merged]")
+    if merged is None:
+        say("  no file")
+    else:
+        say(f"  rows: {len(merged)}")
+        for col in ("Mov_Arrival", "OM_temperature_2m"):
+            if col in merged.columns:
+                say(f"  rows with {col}: {int(merged[col].ne('').sum())}")
+        say("\n[Accuracy - first look]")
+        accuracy(merged)
 
     if "--save" in sys.argv:
         REPORTS.mkdir(parents=True, exist_ok=True)

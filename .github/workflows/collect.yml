@@ -1,61 +1,79 @@
-name: Collect data
+# RailPredict (Dublin) - live board collection every 10 minutes.
+#
+# HOW IT WORKS
+#  * One job stays alive for up to ~5h40m and polls Heuston + Connolly every
+#    10 minutes (scripts/poll_loop.py), saving to GitHub every 30 minutes.
+#  * Near GitHub's 6-hour limit it starts the NEXT run itself (last step), so
+#    collection carries on without depending on GitHub's cron timer, which
+#    skipped most of your v1 runs.
+#  * The cron lines below are only a SAFETY NET. If the chain ever breaks,
+#    the next cron restarts it. If a loop is already running, the new run
+#    waits in the queue (see "concurrency") instead of running twice.
+#
+# !! This file must be at the TOP of the repo:  .github/workflows/
+# !! If you name the project folder something other than "railpredict_dublin",
+#    change it in the 3 places marked FOLDER.
+
+
+name: Collect Dublin Trains
 
 on:
   schedule:
-    # Off-peak minute (:23) avoids GitHub's top-of-hour queue delays and dropped runs.
-    # Runs 05:23 to 23:23 UTC (matches Europe/Dublin GMT until March 28, 2027).
-    - cron: "23 5-23 * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: data-pipeline
+  group: railpredict-dublin
   cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
+
     steps:
-      - name: Get the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
 
-      - name: Install packages
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Set run time
-        run: echo "RUN_UTC=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)" >> "$GITHUB_ENV"
+      - name: Check Irish time
+        id: time
+        run: |
+          hour=$(TZ=Europe/Dublin date +%-H)
+          if [ "$hour" -ge 5 ]; then
+            echo "collect=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "collect=false" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Collect Irish Rail trains
-        if: always()
-        run: python scripts/collect_trains.py
+      - name: Collect train data
+        if: steps.time.outputs.collect == 'true'
+        run: python scripts/collect_boards.py
 
-      - name: Collect Open-Meteo weather
-        if: always()
-        run: python scripts/collect_openmeteo.py
-
-      - name: Collect Met Eireann observations
-        if: always()
-        run: python scripts/collect_met_eireann.py
-
-      - name: Commit data
-        if: always()
+      - name: Save data to GitHub
+        if: steps.time.outputs.collect == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
+
+          git add data/
+
           if git diff --cached --quiet; then
-            echo "Nothing new to commit."
+            echo "No new data."
           else
-            git commit -m "Data $RUN_UTC"
-            git pull --rebase -X ours || true
+            git commit -m "Collect Dublin train data"
+            git pull --rebase
             git push
           fi
+ }}
+        run: gh workflow run railpredict_collect.yml --ref ${{ github.ref_name }}
