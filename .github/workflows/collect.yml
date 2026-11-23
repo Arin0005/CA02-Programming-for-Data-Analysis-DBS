@@ -15,6 +15,12 @@
 #    change it in the 3 places marked FOLDER.
 
 
+
+# RailPredict - Dublin train collection
+# Collects Heuston and Connolly data every 10 minutes.
+# Runs between 5 AM and midnight, Irish local time.
+# Saves new CSV records directly to GitHub.
+
 name: Collect Dublin Trains
 
 on:
@@ -50,6 +56,7 @@ jobs:
         id: time
         run: |
           hour=$(TZ=Europe/Dublin date +%-H)
+
           if [ "$hour" -ge 5 ]; then
             echo "collect=true" >> "$GITHUB_OUTPUT"
           else
@@ -69,11 +76,9 @@ jobs:
           git add data/
 
           if git diff --cached --quiet; then
-            echo "No new data."
+            echo "No new data to save."
           else
             git commit -m "Collect Dublin train data"
             git pull --rebase
             git push
           fi
- }}
-        run: gh workflow run railpredict_collect.yml --ref ${{ github.ref_name }}
