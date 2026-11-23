@@ -1,0 +1,42 @@
+===== Data check for 2026-11-21 (UTC) =====
+
+[Trains - raw]
+  rows: 1413 | runs (hours collected): 2
+  first run: 2026-11-21T13:35:47+00:00 | last run: 2026-11-21T20:36:37+00:00
+  repeated rows within the same collection run: 33
+  Missing values in trains (blank or '-'):
+    Status: 2 of 1413
+    Lastlocation: 794 of 1413
+  stations with no trains all day: 28 of 165
+    ADAMF, ADAMS, BCLAN, BHILL, BRGTN, CAHIR, CCONL, CENTJ, CITYJ, CJRDN, CKOSR, CLMEL, CLONF, CLONS, CPILE, CURAH, DCKLS, DUNMR, HAZEF, HAZES, KISHF, KISHS, NNAGH, PWESF, PWESS, RCREA, TIPRY, WBDGE
+
+[Open-Meteo - raw]
+  rows: 382 | runs: 3 | stations: 142
+  Missing values in open-meteo (blank or '-'):
+
+[Met Eireann - raw]
+  rows: 75 | runs: 3 | stations: 25
+  Missing values in met eireann (blank or '-'):
+    Temperature_C: 1 of 75
+    Weather: 24 of 75
+    WindSpeed_Kts: 7 of 75
+    WindGust_Kts: 63 of 75
+    WindDirection: 7 of 75
+    Humidity_Pct: 1 of 75
+    Rainfall_mm: 1 of 75
+    Pressure_hPa: 1 of 75
+
+[Failed calls]
+  total: 13
+    12 x open_meteo: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=30)
+    1 x stations: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+
+[Clean and merged]
+  clean rows: 1380
+  merged rows: 1380
+  sample merged rows:
+             Servertime Traincode Stationfullname Stationcode Querytime   Traindate          Origin       Destination Origintime Destinationtime         Status           Lastlocation Duein Late Exparrival Expdepart Scharrival Schdepart  Direction Traintype Locationtype            CollectedAtUTC DelayMinutes          OM_time OM_interval OM_temperature_2m OM_precipitation OM_wind_speed_10m OM_wind_gusts_10m OM_relative_humidity_2m    Met_Station Met_Temperature_C Met_Weather Met_WindSpeed_Kts Met_WindGust_Kts Met_WindDirection Met_Humidity_Pct Met_Rainfall_mm Met_Pressure_hPa
+ 2026-11-21T13:35:48.39      A904           Sligo       SLIGO  13:35:48 21 Nov 2026 Dublin Connolly             Sligo      11:05           14:19       En Route          Arrived Boyle    49    5      14:24     00:00      14:19     00:00 Northbound     Train            D 2026-11-21T13:35:47+00:00            5 2026-11-21T13:30         900               9.1              0.0              14.4              31.0                      82 Markree Castle                10           -                 -                                  -               83             0.0             1011
+2026-11-21T13:40:26.427      E817   Dun Laoghaire       DLERY  13:40:26 21 Nov 2026      Greystones          Malahide      14:30           15:56 No Information                           82    0      15:01     15:02      15:01     15:02 Northbound      DART            S 2026-11-21T13:35:47+00:00            0                                                                                                                               Phoenix Park                12           -                 -                                  -               80             0.0             1012
+2026-11-21T13:40:26.427      E219   Dun Laoghaire       DLERY  13:40:26 21 Nov 2026        Malahide              Bray      13:03           14:20       En Route Arrived Lansdowne Road    15    0      13:54     13:55      13:55     13:55 Southbound      DART            S 2026-11-21T13:35:47+00:00            0                                                                                                                               Phoenix Park                12           -                 -                                  -               80             0.0             1012
+2026-11-21T13:40:26.427      E220   Dun Laoghaire       DLERY  13:40:26 21 Nov 2026           Howth              Bray      13:19           14:35       En Route Departed Clontar
