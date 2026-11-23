@@ -84,3 +84,15 @@ Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Dest
 2026-11-23T16:10:24.24,D413,Dublin Connolly,CNLLY,16:10:24,23 Nov 2026,Dublin Connolly,Hazelhatch,16:17,16:53,No Information,,7,0,00:00,16:17,00:00,16:17,To Hazelhatch,Train,O,2026-11-23T16:10:23+00:00
 2026-11-23T16:10:24.24,D416,Dublin Connolly,CNLLY,16:10:24,23 Nov 2026,Dublin Connolly,Hazelhatch,17:08,17:46,No Information,,58,0,00:00,17:08,00:00,17:08,To Hazelhatch,Train,O,2026-11-23T16:10:23+00:00
 2026-11-23T16:10:24.24,D415,Dublin Connolly,CNLLY,16:10:24,23 Nov 2026,Dublin Connolly,Newbridge,16:52,17:47,No Information,,42,0,00:00,16:52,00:00,16:52,To Newbridge,Train,O,2026-11-23T16:10:23+00:00
+2026-11-23T22:32:19.123,P227,Dublin Heuston,HSTON,22:32:19,23 Nov 2026,Portlaoise,Dublin Heuston,21:30,22:46,En Route,Arrived Kishoge,19,5,22:51,00:00,22:46,00:00,To Dublin Heuston,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.123,A531,Dublin Heuston,HSTON,22:32:19,23 Nov 2026,Waterford,Dublin Heuston,20:20,22:52,En Route,Departed Newbridge,29,9,23:01,00:00,22:52,00:00,To Dublin Heuston,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.123,A231,Dublin Heuston,HSTON,22:32:19,23 Nov 2026,Cork,Dublin Heuston,20:25,23:01,En Route,Departed Portlaoise,37,8,23:09,00:00,23:01,00:00,To Dublin Heuston,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.123,A731,Dublin Heuston,HSTON,22:32:19,23 Nov 2026,Galway,Dublin Heuston,20:50,23:35,En Route,Departed Clara,65,2,23:37,00:00,23:35,00:00,To Dublin Heuston,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.123,P229,Dublin Heuston,HSTON,22:32:19,23 Nov 2026,Portlaoise,Dublin Heuston,22:30,23:42,No Information,,70,0,23:42,00:00,23:42,00:00,To Dublin Heuston,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.123,D226,Dublin Heuston,HSTON,22:32:19,23 Nov 2026,Dublin Heuston,Kildare,23:10,00:00,No Information,,38,0,00:00,23:10,00:00,23:10,To Kildare,Train,O,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.593,A915,Dublin Connolly,CNLLY,22:32:19,23 Nov 2026,Sligo,Dublin Connolly,19:05,22:07,En Route,Arrived Drumcondra,8,33,22:40,00:00,22:07,00:00,Southbound,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.593,E133,Dublin Connolly,CNLLY,22:32:19,23 Nov 2026,Malahide,Greystones,23:00,00:03,No Information,,28,0,22:59,23:00,22:59,23:00,Southbound,DART,O,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.593,P714,Dublin Connolly,CNLLY,22:32:19,23 Nov 2026,Drogheda,Dublin Connolly,22:05,23:04,En Route,Arrived Skerries,35,3,23:07,00:00,23:04,00:00,Southbound,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.593,A131,Dublin Connolly,CNLLY,22:32:19,23 Nov 2026,Belfast,Dublin Connolly,21:00,23:13,En Route,Departed Dundalk,39,-2,23:11,00:00,23:13,00:00,Southbound,Train,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.593,E702,Dublin Connolly,CNLLY,22:32:19,23 Nov 2026,Howth,Dublin Connolly,23:21,23:50,No Information,,78,0,23:50,00:00,23:50,00:00,Southbound,DART,D,2026-11-23T22:32:18+00:00
+2026-11-23T22:32:19.593,P768,Dublin Connolly,CNLLY,22:32:19,23 Nov 2026,Maynooth,Dublin Connolly,23:13,00:02,No Information,,90,0,00:02,00:00,00:02,00:00,Southbound,Train,D,2026-11-23T22:32:18+00:00
