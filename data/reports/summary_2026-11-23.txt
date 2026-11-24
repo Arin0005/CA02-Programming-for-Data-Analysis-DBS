@@ -1,0 +1,42 @@
+===== Data check for 2026-11-23 (UTC) =====
+
+[Boards - raw]
+  rows: 97 | polls with trains: 4 (about 114 expected for a full day)
+  gaps over 15 minutes between polls: 3
+    12:50 -> 14:24
+    14:24 -> 16:10
+    16:10 -> 22:32
+  trains seen: 97
+  by station and type (O = starts here, D = ends here): {('CNLLY', 'D'): 21, ('CNLLY', 'O'): 23, ('HSTON', 'D'): 27, ('HSTON', 'O'): 26}
+  status mix: {'No Information': 60, 'En Route': 37}
+  NOTE: 'No Information' rows have Late = 0 as a placeholder, not 'on time'.
+
+[Known train codes] 103
+
+[Movements - raw]
+  stop rows: 2725 | trains: 101
+  trains with an actual arrival at their destination: 92 of 101
+  AutoArrival: {'1': 1677, '': 981, '0': 67}
+  AutoDepart: {'1': 1640, '': 1035, '0': 50}
+
+[Weather]
+  Open-Meteo rows: 48 (48 expected = 2 stations x 24 h)
+  Met Eireann rows: 48 | per station: {'phoenix-park': 24, 'dublin': 24}
+  Met Eireann columns: ['MetSlug', 'name', 'temperature', 'symbol', 'weatherDescription', 'text', 'windSpeed', 'windGust', 'cardinalWindDirection', 'windDirection', 'humidity', 'rainfall', 'pressure', 'dayName', 'date', 'reportTime', 'CollectedAtUTC']
+
+[Failed calls]
+  none logged
+
+[Merged]
+  rows: 97
+  rows with Mov_Arrival: 65
+  rows with OM_temperature_2m: 96
+
+[Accuracy - first look]
+  rows compared: 90
+  typical (median) error in minutes, prediction vs timetable:
+     0-10 min before: prediction 2.0 | timetable 2.0   (n=9)
+        10-30 before: prediction 1.0 | timetable 1.5   (n=24)
+        30-60 before: prediction 2.0 | timetable 2.0   (n=31)
+          60+ before: prediction 2.0 | timetable 2.5   (n=26)
+  only rows where Irish Rail had live info: prediction 3.0 | timetable 4.5   (n=32)
