@@ -1,0 +1,8 @@
+Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Destination,Origintime,Destinationtime,Status,Lastlocation,Duein,Late,Exparrival,Expdepart,Scharrival,Schdepart,Direction,Traintype,Locationtype,CollectedAtUTC
+2026-11-25T05:01:20.147,A200,Dublin Heuston,HSTON,05:01:20,25 Nov 2026,Dublin Heuston,Cork,06:00,08:32,No Information,,59,0,00:00,06:00,00:00,06:00,To Cork,Train,O,2026-11-25T05:01:19+00:00
+2026-11-25T05:01:20.147,A700,Dublin Heuston,HSTON,05:01:20,25 Nov 2026,Dublin Heuston,Galway,05:45,08:36,No Information,,44,0,00:00,05:45,00:00,05:45,To Galway,Train,O,2026-11-25T05:01:19+00:00
+2026-11-25T05:01:20.147,D200,Dublin Heuston,HSTON,05:01:20,25 Nov 2026,Dublin Heuston,Portlaoise,06:20,07:30,No Information,,79,0,00:00,06:20,00:00,06:20,To Portlaoise,Train,O,2026-11-25T05:01:19+00:00
+2026-11-25T05:01:20.79,D900,Dublin Connolly,CNLLY,05:01:20,25 Nov 2026,Dublin Connolly,Maynooth,05:20,06:07,No Information,,19,0,00:00,05:20,00:00,05:20,Northbound,Train,O,2026-11-25T05:01:19+00:00
+2026-11-25T05:01:20.79,A100,Dublin Connolly,CNLLY,05:01:20,25 Nov 2026,Dublin Connolly,Belfast,05:50,07:58,No Information,,49,0,00:00,05:50,00:00,05:50,Northbound,Train,O,2026-11-25T05:01:19+00:00
+2026-11-25T05:01:20.79,D901,Dublin Connolly,CNLLY,05:01:20,25 Nov 2026,Dublin Connolly,Maynooth,06:14,07:01,No Information,,73,0,00:00,06:14,00:00,06:14,Northbound,Train,O,2026-11-25T05:01:19+00:00
+2026-11-25T05:01:20.79,E200,Dublin Connolly,CNLLY,05:01:20,25 Nov 2026,Dublin Connolly,Bray,06:03,06:56,No Information,,62,0,00:00,06:03,00:00,06:03,Southbound,DART,O,2026-11-25T05:01:19+00:00
