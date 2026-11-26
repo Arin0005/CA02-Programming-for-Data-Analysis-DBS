@@ -1,0 +1,49 @@
+MetSlug,name,temperature,symbol,weatherDescription,text,windSpeed,windGust,cardinalWindDirection,windDirection,humidity,rainfall,pressure,dayName,date,reportTime,CollectedAtUTC
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 97 , 0.0 ,1018,Wednesday,25-11-2026,23:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 95 , 0.0 ,1017,Wednesday,25-11-2026,22:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 96 , 0.0 ,1018,Wednesday,25-11-2026,21:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 95 , 0.0 ,1018,Wednesday,25-11-2026,20:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 95 , 0.0 ,1017,Wednesday,25-11-2026,19:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 95 , 0.0 ,1017,Wednesday,25-11-2026,18:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 95 , 0.0 ,1016,Wednesday,25-11-2026,17:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 96 , 0.0 ,1016,Wednesday,25-11-2026,16:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.0 ,1015,Wednesday,25-11-2026,15:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 97 , 0.0 ,1015,Wednesday,25-11-2026,14:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 98 , 0.0 ,1015,Wednesday,25-11-2026,13:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 97 , 0.0 ,1016,Wednesday,25-11-2026,12:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 98 , 0.0 ,1016,Wednesday,25-11-2026,11:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 98 , 0.0 ,1015,Wednesday,25-11-2026,10:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 98 , 0.0 ,1015,Wednesday,25-11-2026,09:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 98 , 0.0 ,1015,Wednesday,25-11-2026,08:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 98 , 0.0 ,1014,Wednesday,25-11-2026,07:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,6,,N/A,,NA,-,-99,0, 97 , 0.1 ,1014,Wednesday,25-11-2026,06:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.3 ,1014,Wednesday,25-11-2026,05:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.6 ,1013,Wednesday,25-11-2026,04:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.3 ,1013,Wednesday,25-11-2026,03:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.6 ,1013,Wednesday,25-11-2026,02:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.1 ,1013,Wednesday,25-11-2026,01:00,2026-11-26T08:04:59+00:00
+phoenix-park,Phoenix Park,7,,N/A,,NA,-,-99,0, 97 , 0.0 ,1013,Wednesday,25-11-2026,00:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15n,Fog / Mist,"""Mist""",7,-,SW,225, 95 , 0.01 ,1018,Wednesday,25-11-2026,23:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Light Drizzle """,9,-,SW,225, 95 , 0.01 ,1017,Wednesday,25-11-2026,22:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15n,Fog / Mist,"""Mist""",6,-,W,270, 94 , 0.0 ,1017,Wednesday,25-11-2026,21:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15n,Fog / Mist,"""Mist""",11,-,NW,315, 94 , 0.0 ,1017,Wednesday,25-11-2026,20:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15n,Fog / Mist,"""Mist""",9,-,N,0, 94 , 0.0 ,1017,Wednesday,25-11-2026,19:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15n,Fog / Mist,"""Mist""",9,-,NW,315, 95 , 0.0 ,1017,Wednesday,25-11-2026,18:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15n,Fog / Mist,"""Mist""",15,-,N,0, 96 , 0.0 ,1016,Wednesday,25-11-2026,17:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46d,Light rain ,"""Recent Drizzle """,15,-,N,0, 95 , 0.01 ,1015,Wednesday,25-11-2026,16:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,8,46d,Light rain ,"""Recent Drizzle """,9,-,N,0, 96 , 0.01 ,1015,Wednesday,25-11-2026,15:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,8,46d,Light rain ,"""Light Drizzle """,11,-,N,0, 97 , 0.01 ,1015,Wednesday,25-11-2026,14:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15d,Fog / Mist,"""Mist""",9,-,SW,225, 97 , 0.0 ,1015,Wednesday,25-11-2026,13:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15d,Fog / Mist,"""Mist""",13,-,W,270, 97 , 0.0 ,1015,Wednesday,25-11-2026,12:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,15d,Fog / Mist,"""Mist""",13,-,W,270, 96 , 0.0 ,1015,Wednesday,25-11-2026,11:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,6,15d,Fog / Mist,"""Mist""",11,-,W,270, 97 , 0.0 ,1015,Wednesday,25-11-2026,10:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,6,15d,Fog / Mist,"""Mist""",13,-,W,270, 98 , 0.0 ,1014,Wednesday,25-11-2026,09:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,6,04d,Cloudy,"""Cloudy""",11,-,W,270, 98 , 0.0 ,1014,Wednesday,25-11-2026,08:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,6,46n,Light rain ,"""Recent Drizzle """,9,-,W,270, 98 , 0.01 ,1014,Wednesday,25-11-2026,07:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,6,46n,Light rain ,"""Light Drizzle """,7,-,W,270, 97 , 0.01 ,1013,Wednesday,25-11-2026,06:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Rain/Drizzle """,9,-,W,270, 98 , 0.4 ,1013,Wednesday,25-11-2026,05:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Rain/Drizzle """,11,-,W,270, 98 , 0.3 ,1013,Wednesday,25-11-2026,04:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Light rain """,7,-,W,270, 98 , 0.3 ,1013,Wednesday,25-11-2026,03:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Rain/Drizzle """,7,-,NW,315, 98 , 0.8 ,1013,Wednesday,25-11-2026,02:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Light rain """,7,-,NW,315, 98 , 0.01 ,1013,Wednesday,25-11-2026,01:00,2026-11-26T08:04:59+00:00
+dublin,Dublin Airport,7,46n,Light rain ,"""Light rain """,11,-,NW,315, 98 , 0.01 ,1013,Wednesday,25-11-2026,00:00,2026-11-26T08:04:59+00:00
