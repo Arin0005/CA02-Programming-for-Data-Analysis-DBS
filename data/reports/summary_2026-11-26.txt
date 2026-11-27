@@ -1,0 +1,47 @@
+===== Data check for 2026-11-26 (UTC) =====
+
+[Boards - raw]
+  rows: 2824 | polls with trains: 117 (about 114 expected for a full day)
+  gaps over 15 minutes between polls: 0
+  trains seen: 301
+  by station and type (O = starts here, D = ends here): {('CNLLY', 'D'): 742, ('CNLLY', 'O'): 668, ('HSTON', 'D'): 781, ('HSTON', 'O'): 633}
+  status mix: {'No Information': 1683, 'En Route': 1138, '': 3}
+  NOTE: 'No Information' rows have Late = 0 as a placeholder, not 'on time'.
+
+[Known train codes] 306
+
+[Movements - raw]
+  stop rows: 5480 | trains: 202
+  trains with an actual arrival at their destination: 200 of 200
+  AutoArrival: {'1': 3380, '': 1959, '0': 141}
+  AutoDepart: {'1': 3295, '': 2065, '0': 120}
+
+[Weather]
+  Open-Meteo rows: 48 (48 expected = 2 stations x 24 h)
+  Met Eireann rows: 48 | per station: {'phoenix-park': 24, 'dublin': 24}
+  Met Eireann columns: ['MetSlug', 'name', 'temperature', 'symbol', 'weatherDescription', 'text', 'windSpeed', 'windGust', 'cardinalWindDirection', 'windDirection', 'humidity', 'rainfall', 'pressure', 'dayName', 'date', 'reportTime', 'CollectedAtUTC']
+
+[Failed calls]
+  total: 204
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+    1 x movements: HTTPSConnectionPool(host='api.irishrail.ie', port=443): Max retries exceeded with url: /realtime/rea
+
+[Merged]
+  rows: 2824
+  rows with Mov_Arrival: 1447
+  rows with OM_temperature_2m: 2783
+
+[Accuracy - first look]
+  rows compared: 1878
+  typical (median) error in minutes, prediction vs timetable:
+     0-10 min before: prediction 2.0 | timetable 2.0   (n=216)
+        10-30 before: prediction 2.0 | timetable 2.0   (n=406)
+        30-60 before: prediction 2.0 | timetable 2.0   (n=651)
+          60+ before: prediction 2.0 | timetable 2.0   (n=605)
+  only rows where Irish Rail had live info: prediction 3.0 | timetable 3.0   (n=804)
