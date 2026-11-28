@@ -30,3 +30,14 @@ Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Dest
 2026-11-28T05:40:46.743,A102,Dublin Connolly,CNLLY,05:40:46,28 Nov 2026,Dublin Connolly,Belfast,06:50,08:58,No Information,,70,0,00:00,06:50,00:00,06:50,Northbound,Train,O,2026-11-28T05:40:45+00:00
 2026-11-28T05:40:46.743,D902,Dublin Connolly,CNLLY,05:40:46,28 Nov 2026,Dublin Connolly,Maynooth,07:00,07:43,No Information,,80,0,00:00,07:00,00:00,07:00,Northbound,Train,O,2026-11-28T05:40:45+00:00
 2026-11-28T05:40:46.743,E500,Dublin Connolly,CNLLY,05:40:46,28 Nov 2026,Dublin Connolly,Grand Canal Dock,06:56,07:03,No Information,,76,0,00:00,06:56,00:00,06:56,Southbound,DART,O,2026-11-28T05:40:45+00:00
+2026-11-28T05:50:43.57,A202,Dublin Heuston,HSTON,05:50:43,28 Nov 2026,Dublin Heuston,Cork,07:00,09:35,No Information,,70,0,00:00,07:00,00:00,07:00,To Cork,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.57,P200,Dublin Heuston,HSTON,05:50:43,28 Nov 2026,Portlaoise,Dublin Heuston,05:27,06:42,En Route,Arrived Monasterevin,54,2,06:44,00:00,06:42,00:00,To Dublin Heuston,Train,D,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.57,P201,Dublin Heuston,HSTON,05:50:43,28 Nov 2026,Kildare,Dublin Heuston,06:30,07:20,No Information,,90,0,07:20,00:00,07:20,00:00,To Dublin Heuston,Train,D,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.57,D200,Dublin Heuston,HSTON,05:50:43,28 Nov 2026,Dublin Heuston,Portlaoise,06:20,07:30,No Information,,30,0,00:00,06:20,00:00,06:20,To Portlaoise,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.57,A502,Dublin Heuston,HSTON,05:50:43,28 Nov 2026,Dublin Heuston,Waterford,07:20,09:45,No Information,,90,0,00:00,07:20,00:00,07:20,To Waterford,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.917,D900,Dublin Connolly,CNLLY,05:50:43,28 Nov 2026,Dublin Connolly,Maynooth,05:58,06:41,No Information,,8,0,00:00,05:58,00:00,05:58,Northbound,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.917,E950,Dublin Connolly,CNLLY,05:50:43,28 Nov 2026,Dublin Connolly,Howth,06:40,07:05,En Route,Departed Kilbarrack,50,0,00:00,06:40,00:00,06:40,Northbound,DART,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.917,A102,Dublin Connolly,CNLLY,05:50:43,28 Nov 2026,Dublin Connolly,Belfast,06:50,08:58,No Information,,60,0,00:00,06:50,00:00,06:50,Northbound,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.917,D902,Dublin Connolly,CNLLY,05:50:43,28 Nov 2026,Dublin Connolly,Maynooth,07:00,07:43,No Information,,70,0,00:00,07:00,00:00,07:00,Northbound,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.917,D903,Dublin Connolly,CNLLY,05:50:43,28 Nov 2026,Dublin Connolly,Maynooth,07:20,08:03,No Information,,90,0,00:00,07:20,00:00,07:20,Northbound,Train,O,2026-11-28T05:50:43+00:00
+2026-11-28T05:50:43.917,E500,Dublin Connolly,CNLLY,05:50:43,28 Nov 2026,Dublin Connolly,Grand Canal Dock,06:56,07:03,No Information,,66,0,00:00,06:56,00:00,06:56,Southbound,DART,O,2026-11-28T05:50:43+00:00
