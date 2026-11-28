@@ -2,3 +2,7 @@ Servertime,Traincode,Stationfullname,Stationcode,Querytime,Traindate,Origin,Dest
 2026-11-28T05:01:09.6,D200,Dublin Heuston,HSTON,05:01:09,28 Nov 2026,Dublin Heuston,Portlaoise,06:20,07:30,No Information,,79,0,00:00,06:20,00:00,06:20,To Portlaoise,Train,O,2026-11-28T05:01:09+00:00
 2026-11-28T05:01:10.273,A100,Dublin Connolly,CNLLY,05:01:10,28 Nov 2026,Dublin Connolly,Belfast,05:50,07:58,No Information,,49,0,00:00,05:50,00:00,05:50,Northbound,Train,O,2026-11-28T05:01:09+00:00
 2026-11-28T05:01:10.273,D900,Dublin Connolly,CNLLY,05:01:10,28 Nov 2026,Dublin Connolly,Maynooth,05:58,06:41,No Information,,57,0,00:00,05:58,00:00,05:58,Northbound,Train,O,2026-11-28T05:01:09+00:00
+2026-11-28T05:10:47.067,D200,Dublin Heuston,HSTON,05:10:47,28 Nov 2026,Dublin Heuston,Portlaoise,06:20,07:30,No Information,,70,0,00:00,06:20,00:00,06:20,To Portlaoise,Train,O,2026-11-28T05:10:46+00:00
+2026-11-28T05:10:47.41,A100,Dublin Connolly,CNLLY,05:10:47,28 Nov 2026,Dublin Connolly,Belfast,05:50,07:58,No Information,,40,0,00:00,05:50,00:00,05:50,Northbound,Train,O,2026-11-28T05:10:46+00:00
+2026-11-28T05:10:47.41,D900,Dublin Connolly,CNLLY,05:10:47,28 Nov 2026,Dublin Connolly,Maynooth,05:58,06:41,No Information,,48,0,00:00,05:58,00:00,05:58,Northbound,Train,O,2026-11-28T05:10:46+00:00
+2026-11-28T05:10:47.41,E950,Dublin Connolly,CNLLY,05:10:47,28 Nov 2026,Dublin Connolly,Howth,06:40,07:05,En Route,Departed Kilbarrack,90,0,00:00,06:40,00:00,06:40,Northbound,DART,O,2026-11-28T05:10:46+00:00
